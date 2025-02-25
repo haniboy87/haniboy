@@ -1,0 +1,1890 @@
+                                                                                                                                                                                                            <html lang="en">
+
+<head>
+    <title>haniboy</title>
+
+    <link
+        href="https://fonts.googleapis.com/css2?display=swap&amp;family=Manrope:ital,wght@0,500;0,600;1,500;1,600&amp;family=Inter:ital,wght@0,200;0,300;1,200;1,300"
+        rel="stylesheet" type="text/css">
+    <style>
+     html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+body {
+    -webkit-text-size-adjust: none
+}
+
+mark {
+    background-color: transparent;
+    color: inherit
+}
+
+input::-moz-focus-inner {
+    border: 0;
+    padding: 0
+}
+
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    -ms-appearance: none;
+    appearance: none
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+body {
+    line-height: 1.0;
+    min-height: var(--viewport-height);
+    min-width: 320px;
+    overflow-x: hidden;
+    word-wrap: break-word;
+}
+
+body:before {
+    content: '';
+    display: block;
+    background-attachment: scroll;
+    height: var(--background-height);
+    left: 0;
+    pointer-events: none;
+    position: fixed;
+    top: 0;
+    transform: scale(1);
+    width: 100vw;
+    z-index: 0;
+    background-image: url('data:image/svg+xml;charset=utf8,%3Csvg%20width%3D%22640%22%20height%3D%22480%22%20viewBox%3D%220%200%20640%20480%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%20%3Cstyle%20type%3D%22text%2Fcss%22%3E%20rect%20%7B%20fill%3A%20%23161524%3B%20%7D%20%3C%2Fstyle%3E%20%3Crect%20x%3D%224.0%22%20y%3D%22432.03%22%20width%3D%2222.476%22%20height%3D%2247.97%22%3E%20%3Canimate%20attributeName%3D%22y%22%20dur%3D%224970ms%22%20repeatCount%3D%22indefinite%22%20values%3D%22432.03%3B419.742%3B441.988%3B423.295%3B444.615%3B308.933%3B445.523%3B436.38%3B420.802%3B435.205%3B360.313%3B352.535%3B428.027%3B441.122%3B436.793%3B441.264%3B414.92%3B434.617%3B431.829%3B443.398%3B432.566%3B426.743%3B338.999%3B340.596%3B422.635%3B417.51%3B443.417%3B437.425%3B419.512%3B439.874%3B418.472%3B428.932%3B432.923%3B413.346%3B420.292%3B432.03%22%20%2F%3E%20%3Canimate%20attributeName%3D%22height%22%20dur%3D%224970ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2247.97%3B60.258%3B38.012%3B56.705%3B35.385%3B171.067%3B34.477%3B43.62%3B59.198%3B44.795%3B119.687%3B127.465%3B51.973%3B38.878%3B43.207%3B38.736%3B65.08%3B45.383%3B48.171%3B36.602%3B47.434%3B53.257%3B141.001%3B139.404%3B57.365%3B62.49%3B36.583%3B42.575%3B60.488%3B40.126%3B61.528%3B51.068%3B47.077%3B66.654%3B59.708%3B47.97%22%20%2F%3E%20%3C%2Frect%3E%20%3Crect%20x%3D%2234.476%22%20y%3D%22445.129%22%20width%3D%2222.476%22%20height%3D%2234.871%22%3E%20%3Canimate%20attributeName%3D%22y%22%20dur%3D%224970ms%22%20repeatCount%3D%22indefinite%22%20values%3D%22445.129%3B422.738%3B423.222%3B440.654%3B432.236%3B339.68%3B421.945%3B419.419%3B415.818%3B445.729%3B441.774%3B427.695%3B440.355%3B423.82%3B420.416%3B439.384%3B445.155%3B358.497%3B438.609%3B355.713%3B428.946%3B444.758%3B445.966%3B421.979%3B421.537%3B425.836%3B430.273%3B444.901%3B433.297%3B332.466%3B422.42%3B359.002%3B428.189%3B415.698%3B445.746%3B445.129%22%20%2F%3E%20%3Canimate%20attributeName%3D%22height%22%20dur%3D%224970ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2234.871%3B57.262%3B56.778%3B39.346%3B47.764%3B140.32%3B58.055%3B60.581%3B64.182%3B34.271%3B38.226%3B52.305%3B39.645%3B56.18%3B59.584%3B40.616%3B34.845%3B121.503%3B41.391%3B124.287%3B51.054%3B35.242%3B34.034%3B58.021%3B58.463%3B54.164%3B49.727%3B35.099%3B46.703%3B147.534%3B57.58%3B120.998%3B51.811%3B64.302%3B34.254%3B34.871%22%20%2F%3E%20%3C%2Frect%3E%20%3Crect%20x%3D%2264.952%22%20y%3D%22416.923%22%20width%3D%2222.476%22%20height%3D%2263.077%22%3E%20%3Canimate%20attributeName%3D%22y%22%20dur%3D%224970ms%22%20repeatCount%3D%22indefinite%22%20values%3D%22416.923%3B425.108%3B414.528%3B426.816%3B437.683%3B429.595%3B441.607%3B421.651%3B428.622%3B431.694%3B414.099%3B362.217%3B415.376%3B444.908%3B419.874%3B446.051%3B436.067%3B353.069%3B440.18%3B357.178%3B339.695%3B424.243%3B430.635%3B428.634%3B440.735%3B446.069%3B422.936%3B431.238%3B420.974%3B305.644%3B416.693%3B414.283%3B436.667%3B434.077%3B439.251%3B416.923%22%20%2F%3E%20%3Canimate%20attributeName%3D%22height%22%20dur%3D%224970ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2263.077%3B54.892%3B65.472%3B53.184%3B42.317%3B50.405%3B38.393%3B58.349%3B51.378%3B48.306%3B65.901%3B117.783%3B64.624%3B35.092%3B60.126%3B33.949%3B43.933%3B126.931%3B39.82%3B122.822%3B140.305%3B55.757%3B49.365%3B51.366%3B39.265%3B33.931%3B57.064%3B48.762%3B59.026%3B174.356%3B63.307%3B65.717%3B43.333%3B45.923%3B40.749%3B63.077%22%20%2F%3E%20%3C%2Frect%3E%20%3Crect%20x%3D%2295.429%22%20y%3D%22439.495%22%20width%3D%2222.476%22%20height%3D%2240.505%22%3E%20%3Canimate%20attributeName%3D%22y%22%20dur%3D%224970ms%22%20repeatCount%3D%22indefinite%22%20values%3D%22439.495%3B431.883%3B423.079%3B414.286%3B421.937%3B323.347%3B423.511%3B432.87%3B438.988%3B426.763%3B439.609%3B444.268%3B423.008%3B442.192%3B435.434%3B431.338%3B425.501%3B344.537%3B418.001%3B423.282%3B349.773%3B438.45%3B434.57%3B315.349%3B437.123%3B429.625%3B446.272%3B420.959%3B433.578%3B428.711%3B423.617%3B426.603%3B416.16%3B323.743%3B325.054%3B439.495%22%20%2F%3E%20%3Canimate%20attributeName%3D%22height%22%20dur%3D%224970ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2240.505%3B48.117%3B56.921%3B65.714%3B58.063%3B156.653%3B56.489%3B47.13%3B41.012%3B53.237%3B40.391%3B35.732%3B56.992%3B37.808%3B44.566%3B48.662%3B54.499%3B135.463%3B61.999%3B56.718%3B130.227%3B41.55%3B45.43%3B164.651%3B42.877%3B50.375%3B33.728%3B59.041%3B46.422%3B51.289%3B56.383%3B53.397%3B63.84%3B156.257%3B154.946%3B40.505%22%20%2F%3E%20%3C%2Frect%3E%20%3Crect%20x%3D%22125.905%22%20y%3D%22439.539%22%20width%3D%2222.476%22%20height%3D%2240.461%22%3E%20%3Canimate%20attributeName%3D%22y%22%20dur%3D%224970ms%22%20repeatCount%3D%22indefinite%22%20values%3D%22439.539%3B424.942%3B420.394%3B346.477%3B320.264%3B339.893%3B429.079%3B324.373%3B319.019%3B328.943%3B443.017%3B422.721%3B347.789%3B426.275%3B421.587%3B440.554%3B333.03%3B308.369%3B420.716%3B428.703%3B344.251%3B267.433%3B342.061%3B413.402%3B413.958%3B446.4%3B420.461%3B434.335%3B436.638%3B440.31%3B427.568%3B368.846%3B352.989%3B296.181%3B316.858%3B439.539%22%20%2F%3E%20%3Canimate%20attributeName%3D%22height%22%20dur%3D%224970ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2240.461%3B55.058%3B59.606%3B133.523%3B159.736%3B140.107%3B50.921%3B155.627%3B160.981%3B151.057%3B36.983%3B57.279%3B132.211%3B53.725%3B58.413%3B39.446%3B146.97%3B171.631%3B59.284%3B51.297%3B135.749%3B212.567%3B137.939%3B66.598%3B66.042%3B33.6%3B59.539%3B45.665%3B43.362%3B39.69%3B52.432%3B111.154%3B127.011%3B183.819%3B163.142%3B40.461%22%20%2F%3E%20%3C%2Frect%3E%20%3Crect%20x%3D%22156.381%22%20y%3D%22417.924%22%20width%3D%2222.476%22%20height%3D%2262.076%22%3E%20%3Canimate%20attributeName%3D%22y%22%20dur%3D%224970ms%22%20repeatCount%3D%22indefinite%22%20values%3D%22417.924%3B413.153%3B446.071%3B357.427%3B243.541%3B324.49%3B247.474%3B328.767%3B317.671%3B422.261%3B359.31%3B266.591%3B334.165%3B427.716%3B423.04%3B423.778%3B294.607%3B435.289%3B274.596%3B341.885%3B345.503%3B309.951%3B305.307%3B250.565%3B263.8%3B373.541%3B423.583%3B342.083%3B324.907%3B303.821%3B432.581%3B304.348%3B336.033%3B226.827%3B293.962%3B417.924%22%20%2F%3E%20%3Canimate%20attributeName%3D%22height%22%20dur%3D%224970ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2262.076%3B66.847%3B33.929%3B122.573%3B236.459%3B155.51%3B232.526%3B151.233%3B162.329%3B57.739%3B120.69%3B213.409%3B145.835%3B52.284%3B56.96%3B56.222%3B185.393%3B44.711%3B205.404%3B138.115%3B134.497%3B170.049%3B174.693%3B229.435%3B216.2%3B106.459%3B56.417%3B137.917%3B155.093%3B176.179%3B47.419%3B175.652%3B143.967%3B253.173%3B186.038%3B62.076%22%20%2F%3E%20%3C%2Frect%3E%20%3Crect%20x%3D%22186.857%22%20y%3D%22358.358%22%20width%3D%2222.476%22%20height%3D%22121.642%22%3E%20%3Canimate%20attributeName%3D%22y%22%20dur%3D%224970ms%22%20repeatCount%3D%22indefinite%22%20values%3D%22358.358%3B102.365%3B343.064%3B322.256%3B290.278%3B345.423%3B169.434%3B434.777%3B274.135%3B262.05%3B302.509%3B413.019%3B296.635%3B225.692%3B278.134%3B275.263%3B247.291%3B354.146%3B256.908%3B306.509%3B245.416%3B227.787%3B369.388%3B272.707%3B318.755%3B188.36%3B303.601%3B414.716%3B290.036%3B374.347%3B295.332%3B292.204%3B334.304%3B238.165%3B314.807%3B358.358%22%20%2F%3E%20%3Canimate%20attributeName%3D%22height%22%20dur%3D%224970ms%22%20repeatCount%3D%22indefinite%22%20values%3D%22121.642%3B377.635%3B136.936%3B157.744%3B189.722%3B134.577%3B310.566%3B45.223%3B205.865%3B217.95%3B177.491%3B66.981%3B183.365%3B254.308%3B201.866%3B204.737%3B232.709%3B125.854%3B223.092%3B173.491%3B234.584%3B252.213%3B110.612%3B207.293%3B161.245%3B291.64%3B176.399%3B65.284%3B189.964%3B105.653%3B184.668%3B187.796%3B145.696%3B241.835%3B165.193%3B121.642%22%20%2F%3E%20%3C%2Frect%3E%20%3Crect%20x%3D%22217.333%22%20y%3D%22421.709%22%20width%3D%2222.476%22%20height%3D%2258.291%22%3E%20%3Canimate%20attributeName%3D%22y%22%20dur%3D%224970ms%22%20repeatCount%3D%22indefinite%22%20values%3D%22421.709%3B227.516%3B285.334%3B230.277%3B309.577%3B348.704%3B262.958%3B347.561%3B237.198%3B249.862%3B332.876%3B381.363%3B333.645%3B232.452%3B249.584%3B211.073%3B298.972%3B327.8%3B195.626%3B315.854%3B276.808%3B324.058%3B316.887%3B283.891%3B164.995%3B207.344%3B438.175%3B322.842%3B246.991%3B342.691%3B246.076%3B350.806%3B334.033%3B296.306%3B373.687%3B421.709%22%20%2F%3E%20%3Canimate%20attributeName%3D%22height%22%20dur%3D%224970ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2258.291%3B252.484%3B194.666%3B249.723%3B170.423%3B131.296%3B217.042%3B132.439%3B242.802%3B230.138%3B147.124%3B98.637%3B146.355%3B247.548%3B230.416%3B268.927%3B181.028%3B152.2%3B284.374%3B164.146%3B203.192%3B155.942%3B163.113%3B196.109%3B315.005%3B272.656%3B41.825%3B157.158%3B233.009%3B137.309%3B233.924%3B129.194%3B145.967%3B183.694%3B106.313%3B58.291%22%20%2F%3E%20%3C%2Frect%3E%20%3Crect%20x%3D%22247.81%22%20y%3D%22293.244%22%20width%3D%2222.476%22%20height%3D%22186.756%22%3E%20%3Canimate%20attributeName%3D%22y%22%20dur%3D%224970ms%22%20repeatCount%3D%22indefinite%22%20values%3D%22293.244%3B224.872%3B247.738%3B197.603%3B298.899%3B314.206%3B255.304%3B256.461%3B320.183%3B303.183%3B299.697%3B282.111%3B230.658%3B112.839%3B223.319%3B259.875%3B320.652%3B362.137%3B230.672%3B331.968%3B352.103%3B414.808%3B379.415%3B298.393%3B241.351%3B94.931%3B186.851%3B233.566%3B281.386%3B389.852%3B235.616%3B302.59%3B355.618%3B316.682%3B344.471%3B293.244%22%20%2F%3E%20%3Canimate%20attributeName%3D%22height%22%20dur%3D%224970ms%22%20repeatCount%3D%22indefinite%22%20values%3D%22186.756%3B255.128%3B232.262%3B282.397%3B181.101%3B165.794%3B224.696%3B223.539%3B159.817%3B176.817%3B180.303%3B197.889%3B249.342%3B367.161%3B256.681%3B220.125%3B159.348%3B117.863%3B249.328%3B148.032%3B127.897%3B65.192%3B100.585%3B181.607%3B238.649%3B385.069%3B293.149%3B246.434%3B198.614%3B90.148%3B244.384%3B177.41%3B124.382%3B163.318%3B135.529%3B186.756%22%20%2F%3E%20%3C%2Frect%3E%20%3Crect%20x%3D%22278.286%22%20y%3D%22318.213%22%20width%3D%2222.476%22%20height%3D%22161.787%22%3E%20%3Canimate%20attributeName%3D%22y%22%20dur%3D%224970ms%22%20repeatCount%3D%22indefinite%22%20values%3D%22318.213%3B223.37%3B255.238%3B285.136%3B308.999%3B156.616%3B231.551%3B236.158%3B257.926%3B271.689%3B336.179%3B152.72%3B262.856%3B174.151%3B270.099%3B206.722%3B348.118%3B233.397%3B199.061%3B318.579%3B348.682%3B275.475%3B320.916%3B363.074%3B253.283%3B168.87%3B224.22%3B233.507%3B309.182%3B364.979%3B164.087%3B261.552%3B346.206%3B265.434%3B271.03%3B318.213%22%20%2F%3E%20%3Canimate%20attributeName%3D%22height%22%20dur%3D%224970ms%22%20repeatCount%3D%22indefinite%22%20values%3D%22161.787%3B256.63%3B224.762%3B194.864%3B171.001%3B323.384%3B248.449%3B243.842%3B222.074%3B208.311%3B143.821%3B327.28%3B217.144%3B305.849%3B209.901%3B273.278%3B131.882%3B246.603%3B280.939%3B161.421%3B131.318%3B204.525%3B159.084%3B116.926%3B226.717%3B311.13%3B255.78%3B246.493%3B170.818%3B115.021%3B315.913%3B218.448%3B133.794%3B214.566%3B208.97%3B161.787%22%20%2F%3E%20%3C%2Frect%3E%20%3Crect%20x%3D%22308.762%22%20y%3D%22293.281%22%20width%3D%2222.476%22%20height%3D%22186.719%22%3E%20%3Canimate%20attributeName%3D%22y%22%20dur%3D%224970ms%22%20repeatCount%3D%22indefinite%22%20values%3D%22293.281%3B245.629%3B235.726%3B276.347%3B358.68%3B295.273%3B151.592%3B278.596%3B294.665%3B317.773%3B335.982%3B246.032%3B198.68%3B254.169%3B225.531%3B225.055%3B335.132%3B184.668%3B148.391%3B323.142%3B385.641%3B305.908%3B324.966%3B380.777%3B260.922%3B337.952%3B285.224%3B254.586%3B295.793%3B366.165%3B197.479%3B311.702%3B361.602%3B321.472%3B360.657%3B293.281%22%20%2F%3E%20%3Canimate%20attributeName%3D%22height%22%20dur%3D%224970ms%22%20repeatCount%3D%22indefinite%22%20values%3D%22186.719%3B234.371%3B244.274%3B203.653%3B121.32%3B184.727%3B328.408%3B201.404%3B185.335%3B162.227%3B144.018%3B233.968%3B281.32%3B225.831%3B254.469%3B254.945%3B144.868%3B295.332%3B331.609%3B156.858%3B94.359%3B174.092%3B155.034%3B99.223%3B219.078%3B142.048%3B194.776%3B225.414%3B184.207%3B113.835%3B282.521%3B168.298%3B118.398%3B158.528%3B119.343%3B186.719%22%20%2F%3E%20%3C%2Frect%3E%20%3Crect%20x%3D%22339.238%22%20y%3D%22408.727%22%20width%3D%2222.476%22%20height%3D%2271.273%22%3E%20%3Canimate%20attributeName%3D%22y%22%20dur%3D%224970ms%22%20repeatCount%3D%22indefinite%22%20values%3D%22408.727%3B350.784%3B309.233%3B303.996%3B320.945%3B214.976%3B265.199%3B329.478%3B360.013%3B361.69%3B374.178%3B258.051%3B300.979%3B375.504%3B314.353%3B308.743%3B338.267%3B232.276%3B271.066%3B333.601%3B358.277%3B374.574%3B358.746%3B382.726%3B258.402%3B368.07%3B361.463%3B302.217%3B341.68%3B377.423%3B208.714%3B322.959%3B389.164%3B373.35%3B407.05%3B408.727%22%20%2F%3E%20%3Canimate%20attributeName%3D%22height%22%20dur%3D%224970ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2271.273%3B129.216%3B170.767%3B176.004%3B159.055%3B265.024%3B214.801%3B150.522%3B119.987%3B118.31%3B105.822%3B221.949%3B179.021%3B104.496%3B165.647%3B171.257%3B141.733%3B247.724%3B208.934%3B146.399%3B121.723%3B105.426%3B121.254%3B97.274%3B221.598%3B111.93%3B118.537%3B177.783%3B138.32%3B102.577%3B271.286%3B157.041%3B90.836%3B106.65%3B72.95%3B71.273%22%20%2F%3E%20%3C%2Frect%3E%20%3Crect%20x%3D%22369.714%22%20y%3D%22392.584%22%20width%3D%2222.476%22%20height%3D%2287.416%22%3E%20%3Canimate%20attributeName%3D%22y%22%20dur%3D%224970ms%22%20repeatCount%3D%22indefinite%22%20values%3D%22392.584%3B386.146%3B330.796%3B376.39%3B381.349%3B289.875%3B277.094%3B342.581%3B360.826%3B444.584%3B348.287%3B289.033%3B324.402%3B358.636%3B323.106%3B337.769%3B390.724%3B281.291%3B289.48%3B344.075%3B331.594%3B386.271%3B362.21%3B264.46%3B277.834%3B401.981%3B403.71%3B338.933%3B368.494%3B417.875%3B269.396%3B371.109%3B384.71%3B375.584%3B397.689%3B392.584%22%20%2F%3E%20%3Canimate%20attributeName%3D%22height%22%20dur%3D%224970ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2287.416%3B93.854%3B149.204%3B103.61%3B98.651%3B190.125%3B202.906%3B137.419%3B119.174%3B35.416%3B131.713%3B190.967%3B155.598%3B121.364%3B156.894%3B142.231%3B89.276%3B198.709%3B190.52%3B135.925%3B148.406%3B93.729%3B117.79%3B215.54%3B202.166%3B78.019%3B76.29%3B141.067%3B111.506%3B62.125%3B210.604%3B108.891%3B95.29%3B104.416%3B82.311%3B87.416%22%20%2F%3E%20%3C%2Frect%3E%20%3Crect%20x%3D%22400.19%22%20y%3D%22418.344%22%20width%3D%2222.476%22%20height%3D%2261.656%22%3E%20%3Canimate%20attributeName%3D%22y%22%20dur%3D%224970ms%22%20repeatCount%3D%22indefinite%22%20values%3D%22418.344%3B384.132%3B390.174%3B391.815%3B387.684%3B311.357%3B302.48%3B378.683%3B418.878%3B420.439%3B366.407%3B313.467%3B322.813%3B407.145%3B347.884%3B319.429%3B406.295%3B315.1%3B246.405%3B397.316%3B403.6%3B413.861%3B381.795%3B316.36%3B332.378%3B404.31%3B398.436%3B386.3%3B415.517%3B453.691%3B276.135%3B383.956%3B419.472%3B438.661%3B457.558%3B418.344%22%20%2F%3E%20%3Canimate%20attributeName%3D%22height%22%20dur%3D%224970ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2261.656%3B95.868%3B89.826%3B88.185%3B92.316%3B168.643%3B177.52%3B101.317%3B61.122%3B59.561%3B113.593%3B166.533%3B157.187%3B72.855%3B132.116%3B160.571%3B73.705%3B164.9%3B233.595%3B82.684%3B76.4%3B66.139%3B98.205%3B163.64%3B147.622%3B75.69%3B81.564%3B93.7%3B64.483%3B26.309%3B203.865%3B96.044%3B60.528%3B41.339%3B22.442%3B61.656%22%20%2F%3E%20%3C%2Frect%3E%20%3Crect%20x%3D%22430.667%22%20y%3D%22421.046%22%20width%3D%2222.476%22%20height%3D%2258.954%22%3E%20%3Canimate%20attributeName%3D%22y%22%20dur%3D%224970ms%22%20repeatCount%3D%22indefinite%22%20values%3D%22421.046%3B413.114%3B388.116%3B400.831%3B416.308%3B305.278%3B344.244%3B384.974%3B418.219%3B443.73%3B386.776%3B342.083%3B327.097%3B438.735%3B385.472%3B387.977%3B409.686%3B337.073%3B342.471%3B392.613%3B412.118%3B427.858%3B397.967%3B338.435%3B366.597%3B428.4%3B404.127%3B371.431%3B409.379%3B444.411%3B304.407%3B391.295%3B405.233%3B371.776%3B393.785%3B421.046%22%20%2F%3E%20%3Canimate%20attributeName%3D%22height%22%20dur%3D%224970ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2258.954%3B66.886%3B91.884%3B79.169%3B63.692%3B174.722%3B135.756%3B95.026%3B61.781%3B36.27%3B93.224%3B137.917%3B152.903%3B41.265%3B94.528%3B92.023%3B70.314%3B142.927%3B137.529%3B87.387%3B67.882%3B52.142%3B82.033%3B141.565%3B113.403%3B51.6%3B75.873%3B108.569%3B70.621%3B35.589%3B175.593%3B88.705%3B74.767%3B108.224%3B86.215%3B58.954%22%20%2F%3E%20%3C%2Frect%3E%20%3Crect%20x%3D%22461.143%22%20y%3D%22449.018%22%20width%3D%2222.476%22%20height%3D%2230.982%22%3E%20%3Canimate%20attributeName%3D%22y%22%20dur%3D%224970ms%22%20repeatCount%3D%22indefinite%22%20values%3D%22449.018%3B433.93%3B418.336%3B393.873%3B445.012%3B362.342%3B297.053%3B399.945%3B402.575%3B429.484%3B393.514%3B368.26%3B365.631%3B430.641%3B410.455%3B388.314%3B405.233%3B353.553%3B304.839%3B423.808%3B402.772%3B427.265%3B403.724%3B370.67%3B313.518%3B448.645%3B440.287%3B421.127%3B406.574%3B447.458%3B309.402%3B395.843%3B431.125%3B418.527%3B409.518%3B449.018%22%20%2F%3E%20%3Canimate%20attributeName%3D%22height%22%20dur%3D%224970ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2230.982%3B46.07%3B61.664%3B86.127%3B34.988%3B117.658%3B182.947%3B80.055%3B77.425%3B50.516%3B86.486%3B111.74%3B114.369%3B49.359%3B69.545%3B91.686%3B74.767%3B126.447%3B175.161%3B56.192%3B77.228%3B52.735%3B76.276%3B109.33%3B166.482%3B31.355%3B39.713%3B58.873%3B73.426%3B32.542%3B170.598%3B84.157%3B48.875%3B61.473%3B70.482%3B30.982%22%20%2F%3E%20%3C%2Frect%3E%20%3Crect%20x%3D%22491.619%22%20y%3D%22446.191%22%20width%3D%2222.476%22%20height%3D%2233.809%22%3E%20%3Canimate%20attributeName%3D%22y%22%20dur%3D%224970ms%22%20repeatCount%3D%22indefinite%22%20values%3D%22446.191%3B416.388%3B426.342%3B411.642%3B416.586%3B352.82%3B365.257%3B413.839%3B377.035%3B456.313%3B403.527%3B336.575%3B366.832%3B440.2%3B429.03%3B431.535%3B408.844%3B351.253%3B307.285%3B408.5%3B415.941%3B402.091%3B400.319%3B415.832%3B337.161%3B443.049%3B434.706%3B409.628%3B448.007%3B455.354%3B318.821%3B409.247%3B425.932%3B435.366%3B413.327%3B446.191%22%20%2F%3E%20%3Canimate%20attributeName%3D%22height%22%20dur%3D%224970ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2233.809%3B63.612%3B53.658%3B68.358%3B63.414%3B127.18%3B114.743%3B66.161%3B102.965%3B23.687%3B76.473%3B143.425%3B113.168%3B39.8%3B50.97%3B48.465%3B71.156%3B128.747%3B172.715%3B71.5%3B64.059%3B77.909%3B79.681%3B64.168%3B142.839%3B36.951%3B45.294%3B70.372%3B31.993%3B24.646%3B161.179%3B70.753%3B54.068%3B44.634%3B66.673%3B33.809%22%20%2F%3E%20%3C%2Frect%3E%20%3Crect%20x%3D%22522.095%22%20y%3D%22452.614%22%20width%3D%2222.476%22%20height%3D%2227.386%22%3E%20%3Canimate%20attributeName%3D%22y%22%20dur%3D%224970ms%22%20repeatCount%3D%22indefinite%22%20values%3D%22452.614%3B433.512%3B418.915%3B438.947%3B405.167%3B386.805%3B406.215%3B409.957%3B413.986%3B433.813%3B423.192%3B400.216%3B376.58%3B447.656%3B420.841%3B423.698%3B402.86%3B360.753%3B367.352%3B435.534%3B427.924%3B402.553%3B403.234%3B412.858%3B389.164%3B441.767%3B444.147%3B420.9%3B394.862%3B464.853%3B397.726%3B415.773%3B438.698%3B437.534%3B416.681%3B452.614%22%20%2F%3E%20%3Canimate%20attributeName%3D%22height%22%20dur%3D%224970ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2227.386%3B46.488%3B61.085%3B41.053%3B74.833%3B93.195%3B73.785%3B70.043%3B66.014%3B46.187%3B56.808%3B79.784%3B103.42%3B32.344%3B59.159%3B56.302%3B77.14%3B119.247%3B112.648%3B44.466%3B52.076%3B77.447%3B76.766%3B67.142%3B90.836%3B38.233%3B35.853%3B59.1%3B85.138%3B15.147%3B82.274%3B64.227%3B41.302%3B42.466%3B63.319%3B27.386%22%20%2F%3E%20%3C%2Frect%3E%20%3Crect%20x%3D%22552.571%22%20y%3D%22466.992%22%20width%3D%2222.476%22%20height%3D%2213.008%22%3E%20%3Canimate%20attributeName%3D%22y%22%20dur%3D%224970ms%22%20repeatCount%3D%22indefinite%22%20values%3D%22466.992%3B446.14%3B445.165%3B414.828%3B378.873%3B408.764%3B417.948%3B432.245%3B441.877%3B464.099%3B406.823%3B420.827%3B435.146%3B441.159%3B460.737%3B462.861%3B429.037%3B440.273%3B416.117%3B434.208%3B434.736%3B442.492%3B419.516%3B424.064%3B426.232%3B437.365%3B445.539%3B426.774%3B379.547%3B470.764%3B404.464%3B432.407%3B446.242%3B413.195%3B415.26%3B466.992%22%20%2F%3E%20%3Canimate%20attributeName%3D%22height%22%20dur%3D%224970ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2213.008%3B33.86%3B34.835%3B65.172%3B101.127%3B71.236%3B62.052%3B47.755%3B38.123%3B15.901%3B73.177%3B59.173%3B44.854%3B38.841%3B19.263%3B17.139%3B50.963%3B39.727%3B63.883%3B45.792%3B45.264%3B37.508%3B60.484%3B55.936%3B53.768%3B42.635%3B34.461%3B53.226%3B100.453%3B9.236%3B75.536%3B47.593%3B33.758%3B66.805%3B64.74%3B13.008%22%20%2F%3E%20%3C%2Frect%3E%20%3Crect%20x%3D%22583.048%22%20y%3D%22464.582%22%20width%3D%2222.476%22%20height%3D%2215.418%22%3E%20%3Canimate%20attributeName%3D%22y%22%20dur%3D%224970ms%22%20repeatCount%3D%22indefinite%22%20values%3D%22464.582%3B450.776%3B438.64%3B446.762%3B444.931%3B456.701%3B451.75%3B440.331%3B383.341%3B413.707%3B416.146%3B410.961%3B415.465%3B456.123%3B454.16%3B440.537%3B451.94%3B474.602%3B440.742%3B434.985%3B407.658%3B429.953%3B419.054%3B407.716%3B413.334%3B460.334%3B462.378%3B434.296%3B438.603%3B463.462%3B407.533%3B419.911%3B451.428%3B404.962%3B410.756%3B464.582%22%20%2F%3E%20%3Canimate%20attributeName%3D%22height%22%20dur%3D%224970ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2215.418%3B29.224%3B41.36%3B33.238%3B35.069%3B23.299%3B28.25%3B39.669%3B96.659%3B66.293%3B63.854%3B69.039%3B64.535%3B23.877%3B25.84%3B39.463%3B28.06%3B5.398%3B39.258%3B45.015%3B72.342%3B50.047%3B60.946%3B72.284%3B66.666%3B19.666%3B17.622%3B45.704%3B41.397%3B16.538%3B72.467%3B60.089%3B28.572%3B75.038%3B69.244%3B15.418%22%20%2F%3E%20%3C%2Frect%3E%20%3Crect%20x%3D%22613.524%22%20y%3D%22467.856%22%20width%3D%2222.476%22%20height%3D%2212.144%22%3E%20%3Canimate%20attributeName%3D%22y%22%20dur%3D%224970ms%22%20repeatCount%3D%22indefinite%22%20values%3D%22467.856%3B472.427%3B442.551%3B459.646%3B455.991%3B457.902%3B444.227%3B454.782%3B451.442%3B475.195%3B433.505%3B473.87%3B444.982%3B468.816%3B457.631%3B460.7%3B452.27%3B462.531%3B475.159%3B456.167%3B454.863%3B446.594%3B435.007%3B419.538%3B442.111%3B461.081%3B457.976%3B451.567%3B444.997%3B477.136%3B443.693%3B459.763%3B451.56%3B449.04%3B460.019%3B467.856%22%20%2F%3E%20%3Canimate%20attributeName%3D%22height%22%20dur%3D%224970ms%22%20repeatCount%3D%22indefinite%22%20values%3D%2212.144%3B7.573%3B37.449%3B20.354%3B24.009%3B22.098%3B35.773%3B25.218%3B28.558%3B4.805%3B46.495%3B6.13%3B35.018%3B11.184%3B22.369%3B19.3%3B27.73%3B17.469%3B4.841%3B23.833%3B25.137%3B33.406%3B44.993%3B60.462%3B37.889%3B18.919%3B22.024%3B28.433%3B35.003%3B2.864%3B36.307%3B20.237%3B28.44%3B30.96%3B19.981%3B12.144%22%20%2F%3E%20%3C%2Frect%3E%3C%2Fsvg%3E'), linear-gradient(112deg, #131430 0%, rgba(0, 0, 0, 0.941) 28%), url('assets/images/bg.jpg?v=2e2129aa');
+    background-size: cover, cover, contain;
+    background-position: bottom, 0% 0%, bottom;
+    background-repeat: no-repeat, repeat, no-repeat;
+    background-color: #000000;
+}
+
+body:after {
+    background-color: #1B1330;
+    content: '';
+    display: block;
+    height: 100%;
+    left: 0;
+    opacity: 0;
+    pointer-events: none;
+    position: fixed;
+    top: 0;
+    transform: scale(1);
+    transition: opacity 1s ease-in-out 0s, visibility 1s 0s;
+    visibility: hidden;
+    width: 100%;
+    z-index: 1;
+}
+
+body.is-loading:after {
+    opacity: 1;
+    visibility: visible;
+}
+
+:root {
+    --background-height: 100vh;
+    --site-language-alignment: left;
+    --site-language-direction: ltr;
+    --site-language-flex-alignment: flex-start;
+    --site-language-indent-left: 1;
+    --site-language-indent-right: 0;
+    --viewport-height: 100vh;
+}
+
+html {
+    font-size: 18pt;
+}
+
+u {
+    text-decoration: underline;
+}
+
+strong {
+    color: inherit;
+    font-weight: bolder;
+}
+
+em {
+    font-style: italic;
+}
+
+code {
+    background-color: rgba(144, 144, 144, 0.25);
+    border-radius: 0.25em;
+    font-family: 'Lucida Console', 'Courier New', monospace;
+    font-size: 0.9em;
+    font-weight: normal;
+    letter-spacing: 0;
+    margin: 0 0.25em;
+    padding: 0.25em 0.5em;
+    text-indent: 0;
+}
+
+mark {
+    background-color: rgba(144, 144, 144, 0.25);
+}
+
+spoiler-text {
+    -webkit-text-stroke: 0;
+    background-color: rgba(32, 32, 32, 0.75);
+    text-shadow: none;
+    text-stroke: 0;
+    color: transparent;
+    cursor: pointer;
+    transition: color 0.1s ease-in-out;
+}
+
+spoiler-text.active {
+    color: #FFFFFF;
+    cursor: text;
+}
+
+s {
+    text-decoration: line-through;
+}
+
+sub {
+    font-size: smaller;
+    vertical-align: sub;
+}
+
+sup {
+    font-size: smaller;
+    vertical-align: super;
+}
+
+a {
+    color: inherit;
+    text-decoration: underline;
+    transition: color 0.25s ease;
+}
+
+#wrapper {
+    -webkit-overflow-scrolling: touch;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: var(--viewport-height);
+    overflow: hidden;
+    position: relative;
+    z-index: 2;
+    padding: 2rem 2rem 2rem 2rem;
+}
+
+#main {
+    --alignment: center;
+    --flex-alignment: center;
+    --indent-left: 1;
+    --indent-right: 1;
+    --border-radius-tl: 2rem;
+    --border-radius-tr: 2rem;
+    --border-radius-br: 2rem;
+    --border-radius-bl: 2rem;
+    align-items: center;
+    display: flex;
+    flex-grow: 0;
+    flex-shrink: 0;
+    justify-content: center;
+    max-width: 100%;
+    position: relative;
+    text-align: var(--alignment);
+    z-index: 1;
+    background-color: transparent;
+    border-radius: var(--border-radius-tl) var(--border-radius-tr) var(--border-radius-br) var(--border-radius-bl);
+    transition: opacity 1s ease 0s, transform 1s ease 0s;
+}
+
+#main>.inner {
+    --padding-horizontal: 2rem;
+    --padding-vertical: 2rem;
+    --spacing: 0rem;
+    --width: 30rem;
+    border-radius: var(--border-radius-tl) var(--border-radius-tr) var(--border-radius-br) var(--border-radius-bl);
+    max-width: 100%;
+    position: relative;
+    width: var(--width);
+    z-index: 1;
+    padding: var(--padding-vertical) var(--padding-horizontal);
+}
+
+#main>.inner>* {
+    margin-top: var(--spacing);
+    margin-bottom: var(--spacing);
+}
+
+#main>.inner> :first-child {
+    margin-top: 0 !important;
+}
+
+#main>.inner> :last-child {
+    margin-bottom: 0 !important;
+}
+
+#main>.inner>.full {
+    margin-left: calc(var(--padding-horizontal) * -1);
+    max-width: calc(100% + calc(var(--padding-horizontal) * 2) + 0.4725px);
+    width: calc(100% + calc(var(--padding-horizontal) * 2) + 0.4725px);
+}
+
+#main>.inner>.full:first-child {
+    border-top-left-radius: inherit;
+    border-top-right-radius: inherit;
+    margin-top: calc(var(--padding-vertical) * -1) !important;
+}
+
+#main>.inner>.full:last-child {
+    border-bottom-left-radius: inherit;
+    border-bottom-right-radius: inherit;
+    margin-bottom: calc(var(--padding-vertical) * -1) !important;
+}
+
+#main>.inner>.full.screen {
+    border-radius: 0 !important;
+    max-width: 100vw;
+    position: relative;
+    width: 100vw;
+    left: 50%;
+    margin-left: -50vw;
+    right: auto;
+}
+
+body.is-loading #main {
+    opacity: 0;
+    transform: translateY(0.6375rem);
+}
+
+body.is-instant #main,
+body.is-instant #main>.inner>*,
+body.is-instant #main>.inner>section>* {
+    transition: none !important;
+}
+
+body.is-instant:after {
+    display: none !important;
+    transition: none !important;
+}
+
+.image {
+    display: block;
+    line-height: 0;
+    max-width: 100%;
+    position: relative;
+}
+
+.image .frame {
+    -webkit-backface-visibility: hidden;
+    -webkit-transform: translate3d(0, 0, 0);
+    display: inline-block;
+    max-width: 100%;
+    overflow: hidden;
+    vertical-align: top;
+    width: 100%;
+}
+
+.image .frame img {
+    border-radius: 0 !important;
+    max-width: 100%;
+    vertical-align: top;
+    width: inherit;
+}
+
+.image.full .frame {
+    display: block;
+}
+
+.image.full:first-child .frame {
+    border-top-left-radius: inherit;
+    border-top-right-radius: inherit;
+}
+
+.image.full:last-child .frame {
+    border-bottom-left-radius: inherit;
+    border-bottom-right-radius: inherit;
+}
+
+.image.style1:not(:first-child) {
+    margin-top: 1.875rem !important;
+}
+
+.image.style1:not(:last-child) {
+    margin-bottom: 1.875rem !important;
+}
+
+.image.style1 .frame {
+    width: 9rem;
+    border-radius: 100%;
+    border-color: #6C69FF;
+    border-style: solid;
+    border-width: 5px;
+    box-shadow: 0rem 1.75rem 1.375rem 0rem rgba(0, 0, 0, 0.29);
+    transition: none;
+}
+
+.image.style1 .frame img {
+    transition: none;
+}
+
+h1,
+h2,
+h3,
+p {
+    direction: var(--site-language-direction);
+    position: relative;
+}
+
+h1 span.p,
+h2 span.p,
+h3 span.p,
+p span.p {
+    display: block;
+    position: relative;
+}
+
+h1 span[style],
+h2 span[style],
+h3 span[style],
+p span[style],
+h1 strong,
+h2 strong,
+h3 strong,
+p strong,
+h1 a,
+h2 a,
+h3 a,
+p a,
+h1 code,
+h2 code,
+h3 code,
+p code,
+h1 mark,
+h2 mark,
+h3 mark,
+p mark,
+h1 spoiler-text,
+h2 spoiler-text,
+h3 spoiler-text,
+p spoiler-text {
+    -webkit-text-fill-color: currentcolor;
+}
+
+#text01 {
+    color: #FFFFFF;
+    font-family: 'Manrope', sans-serif;
+    font-size: 2.5em;
+    line-height: 1.375;
+    font-weight: 500;
+}
+
+#text01 mark {
+    color: #A1A1A1;
+    background-color: transparent;
+}
+
+#text01 a {
+    text-decoration: none;
+}
+
+#text01 a:hover {
+    text-decoration: underline;
+}
+
+#text01 span.p:nth-child(n + 2) {
+    margin-top: 1rem;
+}
+
+h1.style4,
+h2.style4,
+h3.style4,
+p.style4 {
+    text-align: left;
+    color: #8284AB;
+    font-family: 'Inter', sans-serif;
+    text-indent: 0.625rem;
+    font-size: 1em;
+    line-height: 1.75;
+    font-weight: 200;
+}
+
+h1.style4 mark,
+h2.style4 mark,
+h3.style4 mark,
+p.style4 mark {
+    color: #5F3FBA;
+    background-color: transparent;
+}
+
+h1.style4 a,
+h2.style4 a,
+h3.style4 a,
+p.style4 a {
+    text-decoration: none;
+}
+
+h1.style4 a:hover,
+h2.style4 a:hover,
+h3.style4 a:hover,
+p.style4 a:hover {
+    text-decoration: underline;
+}
+
+h1.style4 span.p:nth-child(n + 2),
+h2.style4 span.p:nth-child(n + 2),
+h3.style4 span.p:nth-child(n + 2),
+p.style4 span.p:nth-child(n + 2) {
+    margin-top: 1rem;
+}
+
+h1.style1,
+h2.style1,
+h3.style1,
+p.style1 {
+    color: #FFFFFF;
+    font-family: 'Manrope', sans-serif;
+    font-size: 1.875em;
+    line-height: 1.25;
+    font-weight: 600;
+}
+
+h1.style1 mark,
+h2.style1 mark,
+h3.style1 mark,
+p.style1 mark {
+    color: #A1A1A1;
+    background-color: transparent;
+}
+
+h1.style1 a,
+h2.style1 a,
+h3.style1 a,
+p.style1 a {
+    text-decoration: none;
+}
+
+h1.style1 a:hover,
+h2.style1 a:hover,
+h3.style1 a:hover,
+p.style1 a:hover {
+    text-decoration: underline;
+}
+
+h1.style1 span.p:nth-child(n + 2),
+h2.style1 span.p:nth-child(n + 2),
+h3.style1 span.p:nth-child(n + 2),
+p.style1 span.p:nth-child(n + 2) {
+    margin-top: 1rem;
+}
+
+h1.style2,
+h2.style2,
+h3.style2,
+p.style2 {
+    color: #8284AB;
+    font-family: 'Inter', sans-serif;
+    font-size: 1em;
+    line-height: 1.75;
+    font-weight: 200;
+}
+
+h1.style2 mark,
+h2.style2 mark,
+h3.style2 mark,
+p.style2 mark {
+    color: #5F3FBA;
+    background-color: transparent;
+}
+
+h1.style2 a,
+h2.style2 a,
+h3.style2 a,
+p.style2 a {
+    text-decoration: none;
+}
+
+h1.style2 a:hover,
+h2.style2 a:hover,
+h3.style2 a:hover,
+p.style2 a:hover {
+    text-decoration: underline;
+}
+
+h1.style2 span.p:nth-child(n + 2),
+h2.style2 span.p:nth-child(n + 2),
+h3.style2 span.p:nth-child(n + 2),
+p.style2 span.p:nth-child(n + 2) {
+    margin-top: 1rem;
+}
+
+.container {
+    position: relative;
+}
+
+.container>.wrapper {
+    vertical-align: top;
+    position: relative;
+    max-width: 100%;
+    border-radius: inherit;
+}
+
+.container>.wrapper>.inner {
+    vertical-align: top;
+    position: relative;
+    max-width: 100%;
+    border-radius: inherit;
+    text-align: var(--alignment);
+}
+
+#main .container.full:first-child>.wrapper {
+    border-top-left-radius: inherit;
+    border-top-right-radius: inherit;
+}
+
+#main .container.full:last-child>.wrapper {
+    border-bottom-left-radius: inherit;
+    border-bottom-right-radius: inherit;
+}
+
+#main .container.full:first-child>.wrapper>.inner {
+    border-top-left-radius: inherit;
+    border-top-right-radius: inherit;
+}
+
+#main .container.full:last-child>.wrapper>.inner {
+    border-bottom-left-radius: inherit;
+    border-bottom-right-radius: inherit;
+}
+
+.container.style2 {
+    --alignment: center;
+    --flex-alignment: center;
+    --indent-left: 1;
+    --indent-right: 1;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(66, 57, 110, 0.361);
+}
+
+.container.style2>.wrapper>.inner {
+    --gutters: 3rem;
+    --padding-horizontal: 3.25rem;
+    --padding-vertical: 3.25rem;
+    --spacing: 1.5rem;
+    padding: var(--padding-vertical) var(--padding-horizontal);
+}
+
+.container.style2>.wrapper {
+    max-width: 100%;
+    width: 100%;
+}
+
+.container.style2.default>.wrapper>.inner>* {
+    margin-bottom: var(--spacing);
+    margin-top: var(--spacing);
+}
+
+.container.style2.default>.wrapper>.inner>*:first-child {
+    margin-top: 0 !important;
+}
+
+.container.style2.default>.wrapper>.inner>*:last-child {
+    margin-bottom: 0 !important;
+}
+
+.container.style2.columns>.wrapper>.inner {
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+}
+
+.container.style2.columns>.wrapper>.inner>* {
+    flex-grow: 0;
+    flex-shrink: 0;
+    max-width: 100%;
+    text-align: var(--alignment);
+    padding: 0 0 0 var(--gutters);
+}
+
+.container.style2.columns>.wrapper>.inner>*>* {
+    margin-bottom: var(--spacing);
+    margin-top: var(--spacing);
+}
+
+.container.style2.columns>.wrapper>.inner>*>*:first-child {
+    margin-top: 0 !important;
+}
+
+.container.style2.columns>.wrapper>.inner>*>*:last-child {
+    margin-bottom: 0 !important;
+}
+
+.container.style2.columns>.wrapper>.inner>*:first-child {
+    margin-left: calc(var(--gutters) * -1);
+}
+
+.container.style2.default>.wrapper>.inner>.full {
+    margin-left: calc(var(--padding-horizontal) * -1);
+    max-width: none !important;
+    width: calc(100% + (var(--padding-horizontal) * 2) + 0.4725px);
+}
+
+.container.style2.default>.wrapper>.inner>.full:first-child {
+    margin-top: calc(var(--padding-vertical) * -1) !important;
+    border-top-left-radius: inherit;
+    border-top-right-radius: inherit;
+}
+
+.container.style2.default>.wrapper>.inner>.full:last-child {
+    margin-bottom: calc(var(--padding-vertical) * -1) !important;
+    border-bottom-left-radius: inherit;
+    border-bottom-right-radius: inherit;
+}
+
+.container.style2.columns>.wrapper>.inner>div>.full {
+    margin-left: calc(var(--gutters) * -0.5);
+    max-width: none !important;
+    width: calc(100% + var(--gutters) + 0.4725px);
+}
+
+.container.style2.columns>.wrapper>.inner>div:first-child>.full {
+    margin-left: calc(var(--padding-horizontal) * -1);
+    width: calc(100% + var(--padding-horizontal) + calc(var(--gutters) * 0.5) + 0.4725px);
+}
+
+.container.style2.columns>.wrapper>.inner>div:last-child>.full {
+    width: calc(100% + var(--padding-horizontal) + calc(var(--gutters) * 0.5) + 0.4725px);
+}
+
+.container.style2.columns>.wrapper>.inner>div>.full:first-child {
+    margin-top: calc(var(--padding-vertical) * -1) !important;
+}
+
+.container.style2.columns>.wrapper>.inner>div>.full:last-child {
+    margin-bottom: calc(var(--padding-vertical) * -1) !important;
+}
+
+.container.style2.columns>.wrapper>.inner>.full {
+    align-self: stretch;
+}
+
+.container.style2.columns>.wrapper>.inner>.full:first-child {
+    border-bottom-left-radius: inherit;
+    border-top-left-radius: inherit;
+}
+
+.container.style2.columns>.wrapper>.inner>.full:last-child {
+    border-bottom-right-radius: inherit;
+    border-top-right-radius: inherit;
+}
+
+.container.style2.columns>.wrapper>.inner>.full>.full:first-child:last-child {
+    border-radius: inherit;
+    height: calc(100% + (var(--padding-vertical) * 2));
+}
+
+.container.style2.columns>.wrapper>.inner>.full>.full:first-child:last-child>* {
+    border-radius: inherit;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+}
+
+.container.style1 {
+    --alignment: center;
+    --flex-alignment: center;
+    --indent-left: 1;
+    --indent-right: 1;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+}
+
+.container.style1>.wrapper>.inner {
+    --gutters: 1rem;
+    --padding-horizontal: 2.5rem;
+    --padding-vertical: 2.5rem;
+    --spacing: 0.375rem;
+    padding: var(--padding-vertical) var(--padding-horizontal);
+}
+
+.container.style1>.wrapper {
+    max-width: 100%;
+    width: 100%;
+}
+
+.container.style1.default>.wrapper>.inner>* {
+    margin-bottom: var(--spacing);
+    margin-top: var(--spacing);
+}
+
+.container.style1.default>.wrapper>.inner>*:first-child {
+    margin-top: 0 !important;
+}
+
+.container.style1.default>.wrapper>.inner>*:last-child {
+    margin-bottom: 0 !important;
+}
+
+.container.style1.columns>.wrapper>.inner {
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+}
+
+.container.style1.columns>.wrapper>.inner>* {
+    flex-grow: 0;
+    flex-shrink: 0;
+    max-width: 100%;
+    text-align: var(--alignment);
+    padding: 0 0 0 var(--gutters);
+}
+
+.container.style1.columns>.wrapper>.inner>*>* {
+    margin-bottom: var(--spacing);
+    margin-top: var(--spacing);
+}
+
+.container.style1.columns>.wrapper>.inner>*>*:first-child {
+    margin-top: 0 !important;
+}
+
+.container.style1.columns>.wrapper>.inner>*>*:last-child {
+    margin-bottom: 0 !important;
+}
+
+.container.style1.columns>.wrapper>.inner>*:first-child {
+    margin-left: calc(var(--gutters) * -1);
+}
+
+.container.style1.default>.wrapper>.inner>.full {
+    margin-left: calc(var(--padding-horizontal) * -1);
+    max-width: none !important;
+    width: calc(100% + (var(--padding-horizontal) * 2) + 0.4725px);
+}
+
+.container.style1.default>.wrapper>.inner>.full:first-child {
+    margin-top: calc(var(--padding-vertical) * -1) !important;
+    border-top-left-radius: inherit;
+    border-top-right-radius: inherit;
+}
+
+.container.style1.default>.wrapper>.inner>.full:last-child {
+    margin-bottom: calc(var(--padding-vertical) * -1) !important;
+    border-bottom-left-radius: inherit;
+    border-bottom-right-radius: inherit;
+}
+
+.container.style1.columns>.wrapper>.inner>div>.full {
+    margin-left: calc(var(--gutters) * -0.5);
+    max-width: none !important;
+    width: calc(100% + var(--gutters) + 0.4725px);
+}
+
+.container.style1.columns>.wrapper>.inner>div:first-child>.full {
+    margin-left: calc(var(--padding-horizontal) * -1);
+    width: calc(100% + var(--padding-horizontal) + calc(var(--gutters) * 0.5) + 0.4725px);
+}
+
+.container.style1.columns>.wrapper>.inner>div:last-child>.full {
+    width: calc(100% + var(--padding-horizontal) + calc(var(--gutters) * 0.5) + 0.4725px);
+}
+
+.container.style1.columns>.wrapper>.inner>div>.full:first-child {
+    margin-top: calc(var(--padding-vertical) * -1) !important;
+}
+
+.container.style1.columns>.wrapper>.inner>div>.full:last-child {
+    margin-bottom: calc(var(--padding-vertical) * -1) !important;
+}
+
+.container.style1.columns>.wrapper>.inner>.full {
+    align-self: stretch;
+}
+
+.container.style1.columns>.wrapper>.inner>.full:first-child {
+    border-bottom-left-radius: inherit;
+    border-top-left-radius: inherit;
+}
+
+.container.style1.columns>.wrapper>.inner>.full:last-child {
+    border-bottom-right-radius: inherit;
+    border-top-right-radius: inherit;
+}
+
+.container.style1.columns>.wrapper>.inner>.full>.full:first-child:last-child {
+    border-radius: inherit;
+    height: calc(100% + (var(--padding-vertical) * 2));
+}
+
+.container.style1.columns>.wrapper>.inner>.full>.full:first-child:last-child>* {
+    border-radius: inherit;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+}
+
+#container02>.wrapper>.inner> :nth-child(1) {
+    width: calc(33.33333% + (var(--gutters) / 3));
+}
+
+#container02>.wrapper>.inner> :nth-child(2) {
+    width: calc(33.33333% + (var(--gutters) / 3));
+}
+
+#container02>.wrapper>.inner> :nth-child(3) {
+    width: calc(33.33333% + (var(--gutters) / 3));
+}
+
+.buttons {
+    cursor: default;
+    display: flex;
+    justify-content: var(--flex-alignment);
+    letter-spacing: 0;
+    padding: 0;
+}
+
+.buttons li {
+    max-width: 100%;
+}
+
+.buttons li a {
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+.buttons.style1 {
+    gap: 1.25rem;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.buttons.style1:not(:first-child) {
+    margin-top: 4.5rem !important;
+}
+
+.buttons.style1:not(:last-child) {
+    margin-bottom: 4.5rem !important;
+}
+
+.buttons.style1 li a {
+    display: inline-flex;
+    width: 14.125rem;
+    height: auto;
+    line-height: 1.328125rem;
+    padding: 0 1.0625rem;
+    vertical-align: middle;
+    font-family: 'Inter', sans-serif;
+    font-size: 0.75em;
+    font-weight: 300;
+    border-radius: 0.75rem;
+    box-shadow: -0.017rem 0.5rem 1rem 0rem #000000;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    padding-bottom: 0.6640625rem;
+    padding-top: 0.6640625rem;
+    white-space: normal;
+    align-items: flex-start;
+    transition: transform 0.25s ease, color 0.25s ease, background-color 0.25s ease, border-color 0.25s ease;
+}
+
+.buttons.style1 li a svg {
+    display: block;
+    fill: #FFFFFF;
+    flex-grow: 0;
+    flex-shrink: 0;
+    height: 1.328125rem;
+    min-width: 16px;
+    width: 2.375em;
+    margin-left: 0.5em;
+    margin-right: calc(-0.125em + 0rem);
+    transition: fill 0.25s ease;
+}
+
+.buttons.style1 li a .label {
+    direction: var(--site-language-direction);
+    overflow: hidden;
+    flex-grow: 1;
+    flex-shrink: 1;
+    text-align: left;
+    width: 100%;
+}
+
+.buttons.style1 .button {
+    background-color: rgba(255, 255, 255, 0.051);
+    color: #FFFFFF;
+    background-image: linear-gradient(300deg, rgba(255, 255, 255, 0.039) 0%, transparent 100%);
+    background-position: 0% 0%;
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+.buttons.style1 li a:hover {
+    transform: scale(1.0425);
+}
+
+.icons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: var(--flex-alignment);
+    letter-spacing: 0;
+    padding: 0;
+}
+
+.icons li {
+    position: relative;
+    z-index: 1;
+}
+
+.icons li a {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.icons li a svg {
+    display: block;
+    position: relative;
+}
+
+.icons li a+svg {
+    display: block;
+    height: 100%;
+    left: 0;
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+}
+
+.icons li a .label {
+    display: none;
+}
+
+.icons.style1 {
+    font-size: 2.5em;
+    gap: 1.625rem;
+}
+
+.icons.style1 li a {
+    border-radius: 100%;
+    height: 2em;
+    width: 2em;
+    transition: transform 0.25s ease, color 0.25s ease, background-color 0.25s ease, border-color 0.25s ease;
+}
+
+.icons.style1 li a svg {
+    height: 60%;
+    width: 60%;
+    transition: fill 0.25s ease;
+}
+
+.icons.style1 a {
+    background-color: rgba(255, 255, 255, 0.051);
+    background-image: linear-gradient(37deg, rgba(255, 255, 255, 0.039) 0%, transparent 100%);
+    background-position: 0% 0%;
+    background-repeat: repeat;
+    background-size: cover;
+    box-shadow: 0rem 0.5rem 0.5rem 0rem #000000;
+}
+
+.icons.style1 a svg {
+    fill: #FFFFFF;
+}
+
+.icons.style1 li a+svg {
+    transition: transform 0.25s ease, fill 0.25s ease, stroke 0.25s ease;
+}
+
+.icons.style1 li a:hover {
+    transform: translateY(-7.75%);
+}
+
+.icons.style1 li a:hover+svg {
+    transform: translateY(-7.75%);
+}
+
+#icons01 .n01 {
+    background-color: #D13A3A;
+    background-image: linear-gradient(37deg, #E82C2C 0%, rgba(209, 58, 58, 0.008) 100%);
+}
+
+#icons02 .n01 {
+    background-color: #000000;
+    background-image: linear-gradient(37deg, #404040 0%, rgba(0, 0, 0, 0.008) 100%);
+}
+
+#icons03 .n01 {
+    background-color: #60F2FB;
+    background-image: linear-gradient(37deg, #6038FF 0%, rgba(96, 242, 251, 0.008) 100%);
+}
+
+.timer {
+    cursor: default;
+    line-height: 1;
+}
+
+.timer ul {
+    display: inline-flex;
+    flex-direction: row;
+    list-style: none;
+    max-width: 100%;
+}
+
+.timer ul li {
+    position: relative;
+    z-index: 1;
+}
+
+.timer ul li.delimiter {
+    flex: 0 1 auto;
+}
+
+.timer ul li.delimiter .symbol {
+    display: block;
+    left: 0;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width: 100%;
+}
+
+.timer ul li.number {
+    flex: 1;
+    min-width: 2rem;
+}
+
+.timer ul li.number .item {
+    position: relative;
+}
+
+.timer ul li.number .item .digit {
+    display: block;
+    position: relative;
+    white-space: nowrap;
+}
+
+.timer ul li.number .item .digit .component {
+    display: inline-block;
+    width: 50%;
+}
+
+.timer ul li.number .item .digit.count2 .component {
+    width: 50%;
+}
+
+.timer ul li.number .item .digit.count3 .component {
+    width: 33.3333%;
+}
+
+.timer ul li.number .item .digit.count4 .component {
+    width: 25%;
+}
+
+.timer ul li.number .item .digit.count5 .component {
+    width: 20%;
+}
+
+.timer ul li.number .item .label {
+    display: block;
+    white-space: nowrap;
+}
+
+.timer ul li.number .item .label>* {
+    display: inline-block;
+}
+
+.timer ul li.number .item .label .full {
+    width: 5em;
+}
+
+.timer ul li.number .item .label .abbreviated {
+    width: 3em;
+}
+
+.timer ul li.number .item .label .initialed {
+    width: 1em;
+}
+
+#timer01 ul {
+    width: 30rem;
+}
+
+#timer01 ul li.delimiter {
+    width: 2.5rem;
+    min-width: 1rem;
+}
+
+#timer01 ul li.delimiter .symbol {
+    color: #8284AB;
+}
+
+#timer01 ul li.number .item .digit {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 600;
+    color: #FFFFFF;
+    line-height: 1em;
+    text-align: inherit;
+}
+
+#timer01 ul li.number .item .label>* {
+    margin-top: calc(0.5rem + 0.25em);
+}
+
+#timer01 ul li.number .item .label {
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    font-weight: 200;
+    color: #8284AB;
+}
+
+.icc-credits {
+    display: block;
+    opacity: 1 !important;
+    position: relative;
+    transition-delay: 0s !important;
+}
+
+.icc-credits span {
+    border-radius: 24px;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: 1;
+    position: relative;
+    text-decoration: none;
+    width: auto;
+}
+
+.icc-credits span a {
+    display: inline-block;
+    padding: 0.5em 0.375em;
+    position: relative;
+    text-decoration: none;
+    transition: color 0.25s ease, transform 0.25s ease;
+    z-index: 1;
+}
+
+.icc-credits span a:before {
+    content: '( ';
+    opacity: 1;
+    transition: opacity 0.25s ease;
+}
+
+.icc-credits span a:after {
+    content: ' )';
+    opacity: 1;
+    transition: opacity 0.25s ease;
+}
+
+.icc-credits span::after {
+    background-image: linear-gradient(30deg, #A464A1 15%, #3B5DAD 85%);
+    border-radius: inherit;
+    box-shadow: 0 0.25em 1.25em 0 rgba(0, 0, 0, 0.25);
+    content: '';
+    display: block;
+    height: calc(100% + 2px);
+    left: -1px;
+    opacity: 0;
+    pointer-events: none;
+    position: absolute;
+    top: -1px;
+    transition: opacity 0.25s ease, box-shadow 0.25s ease, transform 0.25s ease;
+    width: calc(100% + 2px);
+}
+
+.icc-credits span:hover {
+    text-transform: none !important;
+}
+
+.icc-credits span:hover a {
+    color: #ffffff !important;
+    transform: scale(1.1) translateY(-0.05rem);
+}
+
+.icc-credits span:hover a:before {
+    opacity: 0;
+}
+
+.icc-credits span:hover a:after {
+    opacity: 0;
+}
+
+.icc-credits span:hover::after {
+    opacity: 1;
+    transform: scale(1.1) translateY(-0.05rem);
+}
+
+#credits span {
+    color: rgba(130, 132, 171, 0.498);
+    margin-top: 1.5rem !important;
+}
+
+#main>.inner>.full:nth-last-child(2) {
+    border-bottom-left-radius: inherit;
+    border-bottom-right-radius: inherit;
+}
+
+@media (max-width: 1920px) {}
+
+@media (max-width: 1680px) {
+    html {
+        font-size: 13pt;
+    }
+}
+
+@media (max-width: 1280px) {
+    html {
+        font-size: 13pt;
+    }
+}
+
+@media (max-width: 1024px) {}
+
+@media (max-width: 980px) {
+    html {
+        font-size: 11pt;
+    }
+}
+
+@media (max-width: 736px) {
+    html {
+        font-size: 12pt;
+    }
+
+    #main {
+        --border-radius-tl: 0;
+        --border-radius-tr: 0;
+        --border-radius-br: 0;
+        --border-radius-bl: 0;
+    }
+
+    #wrapper {
+        padding: 0rem 0rem 0rem 0rem;
+    }
+
+    #main>.inner {
+        --padding-horizontal: 2rem;
+        --padding-vertical: 2rem;
+        --spacing: 0rem;
+    }
+
+    .image.style1:not(:first-child) {
+        margin-top: 1.40625rem !important;
+    }
+
+    .image.style1:not(:last-child) {
+        margin-bottom: 1.40625rem !important;
+    }
+
+    .image.style1 .frame {
+        width: 8rem;
+    }
+
+    #text01 {
+        letter-spacing: 0rem;
+        width: 100%;
+        font-size: 2.25em;
+        line-height: 1.375;
+    }
+
+    h1.style4,
+    h2.style4,
+    h3.style4,
+    p.style4 {
+        text-indent: 0.46875rem;
+        letter-spacing: 0rem;
+        width: 100%;
+        font-size: 1em;
+        line-height: 1.75;
+    }
+
+    h1.style1,
+    h2.style1,
+    h3.style1,
+    p.style1 {
+        letter-spacing: 0rem;
+        width: 100%;
+        font-size: 1.5em;
+        line-height: 1.25;
+    }
+
+    h1.style2,
+    h2.style2,
+    h3.style2,
+    p.style2 {
+        letter-spacing: 0rem;
+        width: 100%;
+        font-size: 1em;
+        line-height: 1.75;
+    }
+
+    .container.style2>.wrapper>.inner {
+        --gutters: 3rem;
+        --padding-horizontal: 2rem;
+        --padding-vertical: 2rem;
+        --spacing: 1.5rem;
+    }
+
+    .container.style2.columns>.wrapper>.inner {
+        flex-direction: column !important;
+        flex-wrap: nowrap !important;
+    }
+
+    .container.style2.columns>.wrapper>.inner>span {
+        height: 0;
+        margin-top: calc(var(--gutters) * -1);
+        pointer-events: none;
+        visibility: hidden;
+    }
+
+    .container.style2.columns>.wrapper>.inner>*:first-child {
+        margin-left: 0 !important;
+        padding-top: 0 !important;
+    }
+
+    .container.style2.columns>.wrapper>.inner>* {
+        padding: calc(var(--gutters) * 0.5) 0 !important;
+    }
+
+    .container.style2.columns>.wrapper>.inner>*:last-child {
+        padding-bottom: 0 !important;
+    }
+
+    .container.style2.columns>.wrapper>.inner>div>.full {
+        margin-left: calc(var(--padding-horizontal) * -1);
+        width: calc(100% + (var(--padding-horizontal) * 2) + 0.4725px);
+    }
+
+    .container.style2.columns>.wrapper>.inner>div:first-of-type>.full {
+        margin-left: calc(var(--padding-horizontal) * -1);
+        width: calc(100% + (var(--padding-horizontal) * 2) + 0.4725px);
+    }
+
+    .container.style2.columns>.wrapper>.inner>div:last-of-type>.full {
+        margin-left: calc(var(--padding-horizontal) * -1);
+        width: calc(100% + (var(--padding-horizontal) * 2) + 0.4725px);
+    }
+
+    .container.style2.columns>.wrapper>.inner>div>.full:first-child {
+        margin-top: calc(var(--gutters) * -0.5) !important;
+    }
+
+    .container.style2.columns>.wrapper>.inner>div>.full:last-child {
+        margin-bottom: calc(var(--gutters) * -0.5) !important;
+    }
+
+    .container.style2.columns>.wrapper>.inner>div:first-of-type>.full:first-child {
+        margin-top: calc(var(--padding-vertical) * -1) !important;
+    }
+
+    .container.style2.columns>.wrapper>.inner>div:last-of-type>.full:last-child {
+        margin-bottom: calc(var(--padding-vertical) * -1) !important;
+    }
+
+    .container.style2.columns>.wrapper>.inner>div:first-of-type,
+    .container.style2.columns>.wrapper>.inner>div:first-of-type>.full:first-child {
+        border-top-left-radius: inherit;
+        border-top-right-radius: inherit;
+    }
+
+    .container.style2.columns>.wrapper>.inner>div:last-of-type,
+    .container.style2.columns>.wrapper>.inner>div:last-of-type>.full:last-child {
+        border-bottom-left-radius: inherit;
+        border-bottom-right-radius: inherit;
+    }
+
+    .container.style2.columns>.wrapper>.inner>div:first-of-type,
+    .container.style2.columns>.wrapper>.inner>div:first-of-type>.full:last-child {
+        border-bottom-left-radius: 0 !important;
+    }
+
+    .container.style2.columns>.wrapper>.inner>div:last-of-type,
+    .container.style2.columns>.wrapper>.inner>div:last-of-type>.full:first-child {
+        border-top-right-radius: 0 !important;
+    }
+
+    .container.style2.columns>.wrapper>.inner>.full>.full:first-child:last-child {
+        height: auto;
+    }
+
+    .container.style2.columns>.wrapper>.inner>.full>.full:first-child:last-child>* {
+        height: auto;
+        position: relative;
+        width: auto;
+    }
+
+    .container.style1 {
+        --alignment: center;
+        --flex-alignment: center;
+        --indent-left: 1;
+        --indent-right: 1;
+    }
+
+    .container.style1>.wrapper>.inner {
+        --gutters: 1rem;
+        --padding-horizontal: 1.75rem;
+        --padding-vertical: 2rem;
+        --spacing: 0.375rem;
+    }
+
+    #container02>.wrapper>.inner> :nth-child(1) {
+        --alignment: center;
+        --flex-alignment: center;
+        --indent-left: 1;
+        --indent-right: 1;
+    }
+
+    #container02>.wrapper>.inner> :nth-child(2) {
+        --alignment: center;
+        --flex-alignment: center;
+        --indent-left: 1;
+        --indent-right: 1;
+    }
+
+    #container02>.wrapper>.inner> :nth-child(3) {
+        --alignment: center;
+        --flex-alignment: center;
+        --indent-left: 1;
+        --indent-right: 1;
+    }
+
+    .buttons.style1 {
+        gap: 1.25rem;
+    }
+
+    .buttons.style1:not(:first-child) {
+        margin-top: 2.625rem !important;
+    }
+
+    .buttons.style1:not(:last-child) {
+        margin-bottom: 2.625rem !important;
+    }
+
+    .buttons.style1 li a {
+        letter-spacing: 0rem;
+        font-size: 0.75em;
+    }
+
+    .buttons.style1 li a svg {
+        width: 2.375em;
+    }
+
+    .icons.style1 {
+        font-size: 1.75em;
+        gap: 1.625rem;
+    }
+}
+
+@media (max-width: 480px) {
+    #wrapper {
+        padding: 0rem 0rem 0rem 0rem;
+    }
+
+    #main>.inner {
+        --spacing: 0rem;
+    }
+
+    .container.style2>.wrapper>.inner {
+        --spacing: 1.3125rem;
+    }
+
+    .container.style1>.wrapper>.inner {
+        --spacing: 0.328125rem;
+    }
+
+    .buttons.style1 li a {
+        max-width: 32rem;
+        width: 100%;
+    }
+
+    #timer01 ul li.delimiter {
+        width: 1.5625rem;
+    }
+
+    #timer01 ul li.number .item .label>* {
+        margin-top: calc(0.5rem + 0.25em);
+    }
+}
+
+@media (max-width: 360px) {
+    #wrapper {
+        padding: 0rem 0rem 0rem 0rem;
+    }
+
+    #main>.inner {
+        --padding-horizontal: 1.5rem;
+        --padding-vertical: 1.5rem;
+        --spacing: 0rem;
+    }
+
+    #text01 {
+        font-size: 2.25em;
+    }
+
+    h1.style4,
+    h2.style4,
+    h3.style4,
+    p.style4 {
+        font-size: 1em;
+    }
+
+    h1.style1,
+    h2.style1,
+    h3.style1,
+    p.style1 {
+        font-size: 1.5em;
+    }
+
+    h1.style2,
+    h2.style2,
+    h3.style2,
+    p.style2 {
+        font-size: 1em;
+    }
+
+    .container.style2>.wrapper>.inner {
+        --gutters: 2.25rem;
+        --padding-horizontal: 1.5rem;
+        --padding-vertical: 1.5rem;
+        --spacing: 1.125rem;
+    }
+
+    .container.style1>.wrapper>.inner {
+        --gutters: 0.75rem;
+        --padding-horizontal: 1.3125rem;
+        --padding-vertical: 1.5rem;
+        --spacing: 0.28125rem;
+    }
+
+    .buttons.style1 {
+        gap: 0.9375rem;
+    }
+
+    .icons.style1 {
+        gap: 1.21875rem;
+    }
+}
+    </style><noscript>
+        <style>
+            body {
+                overflow: auto !important;
+            }
+
+            body:after {
+                display: none !important;
+            }
+
+            #main>.inner {
+                opacity: 1.0 !important;
+            }
+
+            #main {
+                opacity: 1.0 !important;
+                transform: none !important;
+                transition: none !important;
+                filter: none !important;
+            }
+        </style>
+    </noscript>
+    <style></style>
+</head>
+
+<body class="is-ready"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink"
+        viewBox="0 0 40 40" display="none" width="0" height="0">
+        <symbol id="icon-1c13576468284a37278ea9bf6776a7f6" viewBox="0 0 40 40">
+            <path
+                d="M34.4,23.1c-0.2,0.3-0.5,0.4-0.8,0.4L12.2,26c0.2,0.8,0.3,1.3,0.3,1.4c0,0.2-0.2,0.7-0.5,1.3h18.8 c0.4,0,0.7,0.1,0.9,0.4c0.3,0.3,0.4,0.6,0.4,0.9c0,0.4-0.1,0.7-0.4,0.9c-0.3,0.3-0.6,0.4-0.9,0.4h-1.3H11.2H9.9 c-0.4,0-0.7-0.1-0.9-0.4c-0.3-0.3-0.4-0.6-0.4-0.9c0-0.2,0.1-0.4,0.2-0.6c0.1-0.3,0.2-0.5,0.3-0.7c0.1-0.2,0.3-0.5,0.4-0.8 c0.2-0.3,0.3-0.5,0.3-0.6l-3.6-18H2c-0.4,0-0.7-0.1-0.9-0.4C0.8,8.7,0.7,8.4,0.7,8c0-0.4,0.1-0.7,0.4-0.9C1.3,6.8,1.6,6.7,2,6.7h5.2 c0.2,0,0.4,0,0.6,0.1C8,6.9,8.1,7,8.2,7.1c0.1,0.1,0.2,0.3,0.3,0.5C8.6,7.9,8.6,8,8.7,8.2c0,0.1,0.1,0.3,0.1,0.6 c0,0.3,0.1,0.4,0.1,0.5h24.6c0.4,0,0.7,0.1,0.9,0.4c0.3,0.3,0.4,0.6,0.4,0.9v11.6C34.8,22.5,34.6,22.8,34.4,23.1z M32.5,11.5 c-0.1-0.1-0.1-0.1-0.5-0.1c-3.6,0-22.7,0-22.7,0l2.4,12.2c0,0,17.4-1.9,20.5-2.2c0.3,0,0.2-0.1,0.3-0.2c0.1-0.1,0.1-0.1,0.1-0.4 c0-1.5,0-7.3,0-8.9C32.6,11.7,32.6,11.6,32.5,11.5z M31.4,32.2c0.5,0.5,0.8,1.1,0.8,1.9c0,0.7-0.3,1.3-0.8,1.9 c-0.5,0.5-1.1,0.8-1.8,0.8c-0.7,0-1.3-0.3-1.8-0.8c-0.5-0.5-0.8-1.1-0.8-1.9c0-0.7,0.3-1.3,0.8-1.9c0.5-0.5,1.1-0.8,1.8-0.8 C30.2,31.4,30.8,31.7,31.4,32.2z M13,32.2c0.5,0.5,0.8,1.1,0.8,1.9c0,0.7-0.3,1.3-0.8,1.9c-0.5,0.5-1.1,0.8-1.8,0.8 c-0.7,0-1.3-0.3-1.8-0.8c-0.5-0.5-0.8-1.1-0.8-1.9c0-0.7,0.3-1.3,0.8-1.9c0.5-0.5,1.1-0.8,1.8-0.8C11.9,31.4,12.5,31.7,13,32.2z">
+            </path>
+        </symbol>
+        <symbol id="icon-e9633646f45121eab610a3d30c929019" viewBox="0 0 40 40">
+            <path
+                d="M24.9,21.9c0.2,0,0.9,0.3,2.1,1c1.2,0.6,1.9,1,1.9,1.1c0,0.1,0,0.2,0,0.3c0,0.5-0.1,1-0.4,1.6c-0.2,0.6-0.7,1-1.5,1.4 s-1.5,0.6-2.2,0.6c-0.8,0-2.2-0.4-4.1-1.3c-1.4-0.7-2.6-1.5-3.7-2.6c-1-1.1-2.1-2.4-3.2-4c-1-1.5-1.6-3-1.5-4.2v-0.2 c0-1.3,0.6-2.5,1.6-3.4c0.3-0.3,0.7-0.5,1.1-0.5c0.1,0,0.2,0,0.4,0c0.2,0,0.3,0,0.4,0c0.3,0,0.5,0,0.6,0.1c0.1,0.1,0.2,0.3,0.3,0.6 c0.1,0.3,0.4,0.9,0.7,1.9S18,16,18,16.1c0,0.3-0.2,0.7-0.7,1.2c-0.5,0.5-0.7,0.9-0.7,1c0,0.1,0,0.2,0.1,0.3c0.5,1.1,1.2,2,2.2,3 c0.8,0.8,1.9,1.5,3.3,2.2c0.2,0.1,0.3,0.2,0.5,0.2c0.2,0,0.6-0.4,1.2-1.1S24.7,21.9,24.9,21.9L24.9,21.9z M20.5,33.4 c1.8,0,3.6-0.4,5.3-1.1c1.7-0.7,3.1-1.7,4.4-2.9c1.2-1.2,2.2-2.7,2.9-4.4c0.7-1.7,1.1-3.4,1.1-5.3c0-1.8-0.4-3.6-1.1-5.3 c-0.7-1.7-1.7-3.1-2.9-4.4s-2.7-2.2-4.4-2.9s-3.4-1.1-5.3-1.1c-1.8,0-3.6,0.4-5.3,1.1s-3.1,1.7-4.4,2.9c-1.2,1.2-2.2,2.7-2.9,4.4 c-0.7,1.7-1.1,3.4-1.1,5.3c0,2.9,0.9,5.6,2.6,8l-1.7,5.1l5.3-1.7C15.3,32.6,17.8,33.4,20.5,33.4z M20.5,3.4c2.2,0,4.3,0.4,6.3,1.3 s3.8,2,5.2,3.5c1.5,1.5,2.6,3.2,3.5,5.2c0.9,2,1.3,4.1,1.3,6.3c0,2.2-0.4,4.3-1.3,6.3s-2,3.8-3.5,5.2c-1.5,1.5-3.2,2.6-5.2,3.5 s-4.1,1.3-6.3,1.3c-2.8,0-5.5-0.7-7.9-2L3.5,37l3-8.8c-1.6-2.6-2.3-5.4-2.3-8.4c0-2.2,0.4-4.3,1.3-6.3s2-3.8,3.5-5.2 s3.2-2.6,5.2-3.5S18.2,3.4,20.5,3.4z">
+            </path>
+        </symbol>
+        <symbol id="icon-3b7eeeccbb457780f277fce4669f67a0" viewBox="0 0 40 40">
+            <path
+                d="M33.2,8.3c-2.5-1.1-5.1-1.9-7.9-2.4c-0.3,0.6-0.7,1.4-1,2c-2.9-0.4-5.8-0.4-8.7,0c-0.3-0.6-0.7-1.4-1-2 c-2.8,0.5-5.4,1.3-7.9,2.4c-5,7.2-6.3,14.2-5.6,21.1c3.3,2.3,6.5,3.8,9.6,4.7c0.8-1,1.5-2.1,2.1-3.3c-1.1-0.4-2.2-0.9-3.2-1.5 c0.3-0.2,0.5-0.4,0.8-0.6c6.3,2.8,13,2.8,19.2,0c0.3,0.2,0.5,0.4,0.8,0.6c-1,0.6-2.1,1.1-3.2,1.5c0.6,1.1,1.3,2.2,2.1,3.3 c3.1-0.9,6.3-2.4,9.6-4.7C39.7,21.4,37.5,14.4,33.2,8.3z M13.7,25.1c-1.9,0-3.4-1.7-3.4-3.7s1.5-3.7,3.4-3.7c1.9,0,3.5,1.7,3.4,3.7 C17.1,23.4,15.6,25.1,13.7,25.1z M26.3,25.1c-1.9,0-3.4-1.7-3.4-3.7s1.5-3.7,3.4-3.7c1.9,0,3.5,1.7,3.4,3.7 C29.7,23.4,28.2,25.1,26.3,25.1z">
+            </path>
+        </symbol>
+        <symbol id="icon-82f3578d47d0f21e107a859dbadc82fd" viewBox="0 0 40 40">
+            <path
+                d="M13,32.1c-0.5-0.5-1.1-0.7-1.9-0.7s-1.4,0.2-1.9,0.7c-0.5,0.5-0.7,1.1-0.7,1.9c0,0.7,0.2,1.4,0.7,1.9 c0.5,0.5,1.1,0.7,1.9,0.7s1.4-0.2,1.9-0.7c0.5-0.5,0.7-1.1,0.7-1.9S13.5,32.6,13,32.1z M31.2,32.1c-0.5-0.5-1-0.7-1.8-0.7 s-1.4,0.2-1.9,0.7c-0.5,0.5-0.7,1.1-0.7,1.9c0,0.7,0.2,1.4,0.7,1.9s1.1,0.7,1.9,0.7s1.4-0.2,1.9-0.7c0.5-0.5,0.7-1.1,0.7-1.9 S31.7,32.6,31.2,32.1z M34.2,9.8c-0.2-0.2-0.5-0.4-0.9-0.4H8.9c0-0.1,0-0.3-0.1-0.5c0-0.3-0.1-0.5-0.1-0.6c0-0.1-0.1-0.3-0.2-0.5 c0-0.2-0.1-0.4-0.2-0.5C8.1,7.1,8,7,7.8,6.9C7.6,6.8,7.4,6.8,7.2,6.8H2c-0.3,0-0.6,0.1-0.9,0.4C0.7,7.6,0.7,7.8,0.7,8.1 c0,0.3,0.1,0.6,0.4,0.9s0.5,0.4,0.9,0.4h4.2l3.5,17.8c0,0.1-0.1,0.3-0.3,0.6c-0.2,0.3-0.3,0.6-0.4,0.8c-0.1,0.2-0.2,0.4-0.3,0.7 c-0.1,0.3-0.2,0.5-0.2,0.6c0,0.3,0.1,0.6,0.4,0.9c0.2,0.2,0.5,0.4,0.9,0.4h20.9c0.3,0,0.6-0.1,0.9-0.4c0.2-0.2,0.4-0.5,0.4-0.9 c0-0.4-0.1-0.6-0.4-0.9c-0.2-0.2-0.5-0.4-0.9-0.4H12.1c0.3-0.6,0.5-1,0.5-1.4c0-0.1-0.1-0.6-0.3-1.5l21.3-2.5c0.3,0,0.6-0.2,0.8-0.4 c0.2-0.2,0.3-0.5,0.3-0.8V10.7C34.7,10.4,34.5,10.1,34.2,9.8z">
+            </path>
+        </symbol>
+        <symbol id="icon-a63c85b2b6ee333b6d6753e57c8dfe0a" viewBox="0 0 40 40">
+            <path
+                d="M37.6,27.1c0,0-0.3,2.4-1.4,3.5c-1.4,1.4-2.9,1.4-3.6,1.5c-5,0.4-12.4,0.4-12.4,0.4s-9.2-0.1-12.1-0.4 c-0.8-0.1-2.6-0.1-3.9-1.5c-1.1-1.1-1.4-3.5-1.4-3.5s-0.4-2.9-0.4-5.7v-2.7c0-2.9,0.4-5.7,0.4-5.7s0.3-2.4,1.4-3.5 C5.5,8,7,8,7.7,7.9c5-0.4,12.4-0.4,12.4-0.4h0c0,0,7.5,0,12.4,0.4C33.3,8,34.8,8,36.2,9.4c1.1,1.1,1.4,3.5,1.4,3.5s0.4,2.9,0.4,5.7 v2.7C37.9,24.2,37.6,27.1,37.6,27.1z M16.5,14.6l0,9.9l9.6-5L16.5,14.6z">
+            </path>
+        </symbol>
+        <symbol id="icon-694b338299bf630d8d2ec9bd42d31dbe" viewBox="0 0 40 40">
+            <path
+                d="M36.1,11.7v5c-3.3,0-6.3-1-8.8-2.8v12.9c0,6.5-5.2,11.7-11.7,11.7c-2.4,0-4.6-0.7-6.5-2c0,0,0,0,0,0 c-3.1-2.1-5.2-5.7-5.2-9.7c0-6.5,5.2-11.7,11.7-11.7c0.5,0,1.1,0,1.6,0.1v1.4c0,0,0,0,0,0v5c-0.5-0.2-1.1-0.3-1.6-0.3 c-2.9,0-5.3,2.4-5.3,5.4c0,2.1,1.2,3.9,2.9,4.8c0.7,0.4,1.5,0.6,2.4,0.6c2.9,0,5.3-2.4,5.3-5.3V1.5h6.3v0.8c0,0.2,0.1,0.5,0.1,0.7 c0.4,2.5,1.9,4.7,4,6c0,0,0.1,0.1,0.1,0.1c0,0-0.1-0.1-0.1-0.1c1.4,0.9,3,1.3,4.7,1.3V11.7">
+            </path>
+        </symbol>
+        <symbol id="icon-96fc68818d10374399c6dcf28fe98f75" viewBox="0 0 40 40">
+            <path
+                d="M34,9.6l-4.9,22.9c-0.3,1.6-1.3,2-2.7,1.2L19,28.3l-3.6,3.5c-0.3,0.4-0.7,0.8-1.5,0.8l0.4-7.6l0,0l-0.1,0 l13.9-12.4c0.7-0.6-0.1-0.8-0.9-0.3L10.2,22.9l-7.4-2.3c-1.7-0.4-1.7-1.6,0.3-2.3l28.8-11C33.2,6.7,34.5,7.6,34,9.6z">
+            </path>
+        </symbol>
+    </svg>
+    <div id="wrapper">
+        <div id="main">
+            <div class="inner">
+                <div id="container03" class="style2 container default full">
+                    <div class="wrapper">
+                        <div class="inner">
+                            <div id="image01" class="style1 image"><span class="frame"><img
+                                        src="169669580040.jpg" alt="Lez"></span></div>
+                            <h1 id="text01">Hi i'm haniboy!</h1>
+                            <p id="text07" class="style4"><span class="p">berbeda dgn kemaren yang bermain hingga 24jam</span><span class="p">business?
+                                    just send message to my email</span><span class="p">Contact :<br> WA :
+                                    089512748735<br> IG : @_haniboy<br> Email : isvihani76@gmail.com</span></p>
+                        </div>
+                    </div>
+                </div>
+                <ul id="buttons01" class="style1 buttons">
+                    <li><a href="harga joki.html" class="button n01"><svg>
+                                <use xlink:href="#icon-1c13576468284a37278ea9bf6776a7f6"></use>
+                            </svg><span class="label">harga joki</span></a></li>
+                    <li><a href="https://wa.me/6289512748735" class="button n02"><svg>
+                                <use xlink:href="#icon-e9633646f45121eab610a3d30c929019"></use>
+                            </svg><span class="label">joki imortal</span></a></li>
+                    <li><a href="https://discord.gg/Dsp6x9aZ" class="button n03"><svg>
+                                <use xlink:href="#icon-3b7eeeccbb457780f277fce4669f67a0"></use>
+                            </svg><span class="label">Discord</span></a></li>
+                    <li><a href="https://api.whatsapp.com/send/?phone=6289512748735&amp;text=Order+am+prem&amp;type=phone_number&amp;app_absent=0"
+                            class="button n04"><svg>
+                                <use xlink:href="#icon-82f3578d47d0f21e107a859dbadc82fd"></use>
+                            </svg><span class="label">joki tugas</span></a></li>
+                </ul>
+                <div id="container02" class="style1 container columns full">
+                    <div class="wrapper">
+                        <div class="inner">
+                            <div>
+                                <ul id="icons01" class="style1 icons">
+                                    <li><a class="n01" href="#" aria-label="YouTube"><svg>
+                                                <use xlink:href="#icon-a63c85b2b6ee333b6d6753e57c8dfe0a"></use>
+                                            </svg><span class="label">YouTube</span></a></li>
+                                </ul>
+                                <h2 id="text06" class="style1">109k</h2>
+                                <p id="text09" class="style2">Subscribers</p>
+                            </div>
+                            <div>
+                                <ul id="icons02" class="style1 icons">
+                                    <li><a class="n01" href="#" aria-label="TikTok"><svg>
+                                                <use xlink:href="#icon-694b338299bf630d8d2ec9bd42d31dbe"></use>
+                                            </svg><span class="label">TikTok</span></a></li>
+                                </ul>
+                                <h2 id="text10" class="style1">29k</h2>
+                                <p id="text14" class="style2">Followers</p>
+                            </div>
+                            <div>
+                                <ul id="icons03" class="style1 icons">
+                                    <li><a class="n01" href="#" aria-label="Telegram"><svg>
+                                                <use xlink:href="#icon-96fc68818d10374399c6dcf28fe98f75"></use>
+                                            </svg><span class="label">Telegram</span></a></li>
+                                </ul>
+                                <h2 id="text15" class="style1">2.1k</h2>
+                                <p id="text16" class="style2">Subscribers</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="timer01" class="timer">
+                    <ul style="height: 82px;">
+                        <li class="number days">
+                            <div class="item"><span class="digit count3" style="font-size: 37.95px;"><span
+                                        class="component" style="line-height: 56px; height: 56px;">2</span><span
+                                        class="component" style="line-height: 56px; height: 56px;">0</span><span
+                                        class="component" style="line-height: 56px; height: 56px;">3</span></span><span
+                                    class="label"><span class="full" style="display: none;">Days</span><span
+                                        class="abbreviated">Days</span><span class="initialed"
+                                        style="display: none;">D</span></span></div>
+                        </li>
+                        <li class="delimiter"><span class="symbol"
+                                style="font-size: 28.05px; line-height: 56px; height: 56px;">:</span></li>
+                        <li class="number hours">
+                            <div class="item"><span class="digit count2" style="font-size: 56.1px;"><span
+                                        class="component" style="line-height: 56px; height: 56px;">0</span><span
+                                        class="component" style="line-height: 56px; height: 56px;">5</span></span><span
+                                    class="label"><span class="full" style="display: none;">Hours</span><span
+                                        class="abbreviated">Hrs</span><span class="initialed"
+                                        style="display: none;">H</span></span></div>
+                        </li>
+                        <li class="delimiter"><span class="symbol"
+                                style="font-size: 28.05px; line-height: 56px; height: 56px;">:</span></li>
+                        <li class="number minutes">
+                            <div class="item"><span class="digit count2" style="font-size: 56.1px;"><span
+                                        class="component" style="line-height: 56px; height: 56px;">5</span><span
+                                        class="component" style="line-height: 56px; height: 56px;">7</span></span><span
+                                    class="label"><span class="full" style="display: none;">Minutes</span><span
+                                        class="abbreviated">Mins</span><span class="initialed"
+                                        style="display: none;">M</span></span></div>
+                        </li>
+                        <li class="delimiter"><span class="symbol"
+                                style="font-size: 28.05px; line-height: 56px; height: 56px;">:</span></li>
+                        <li class="number seconds">
+                            <div class="item"><span class="digit count2" style="font-size: 56.1px;"><span
+                                        class="component" style="line-height: 56px; height: 56px;">2</span><span
+                                        class="component" style="line-height: 56px; height: 56px;">3</span></span><span
+                                    class="label"><span class="full" style="display: none;">Seconds</span><span
+                                        class="abbreviated">Secs</span><span class="initialed"
+                                        style="display: none;">S</span></span></div>
+                        </li>
+                    </ul>
+                </div>
+                <div id="credits" class="icc-credits"><span><a href="https://carrd.co/build?ref=auto">Made with
+                            Carrd</a></span></div>
+            </div>
+        </div>
+    </div>
+    <script>(function () { var on = addEventListener, off = removeEventListener, $ = function (q) { return document.querySelector(q) }, $$ = function (q) { return document.querySelectorAll(q) }, $body = document.body, $inner = $('.inner'), client = (function () { var o = { browser: 'other', browserVersion: 0, os: 'other', osVersion: 0, mobile: false, canUse: null, flags: { lsdUnits: false, }, }, ua = navigator.userAgent, a, i; a = [['firefox', /Firefox\/([0-9\.]+)/], ['edge', /Edge\/([0-9\.]+)/], ['safari', /Version\/([0-9\.]+).+Safari/], ['chrome', /Chrome\/([0-9\.]+)/], ['chrome', /CriOS\/([0-9\.]+)/], ['ie', /Trident\/.+rv:([0-9]+)/]]; for (i = 0; i < a.length; i++) { if (ua.match(a[i][1])) { o.browser = a[i][0]; o.browserVersion = parseFloat(RegExp.$1); break; } } a = [['ios', /([0-9_]+) like Mac OS X/, function (v) { return v.replace('_', '.').replace('_', ''); }], ['ios', /CPU like Mac OS X/, function (v) { return 0 }], ['ios', /iPad; CPU/, function (v) { return 0 }], ['android', /Android ([0-9\.]+)/, null], ['mac', /Macintosh.+Mac OS X ([0-9_]+)/, function (v) { return v.replace('_', '.').replace('_', ''); }], ['windows', /Windows NT ([0-9\.]+)/, null], ['undefined', /Undefined/, null]]; for (i = 0; i < a.length; i++) { if (ua.match(a[i][1])) { o.os = a[i][0]; o.osVersion = parseFloat(a[i][2] ? (a[i][2])(RegExp.$1) : RegExp.$1); break; } } if (o.os == 'mac' && ('ontouchstart' in window) && ((screen.width == 1024 && screen.height == 1366) || (screen.width == 834 && screen.height == 1112) || (screen.width == 810 && screen.height == 1080) || (screen.width == 768 && screen.height == 1024))) o.os = 'ios'; o.mobile = (o.os == 'android' || o.os == 'ios'); var _canUse = document.createElement('div'); o.canUse = function (property, value) { var style; style = _canUse.style; if (!(property in style)) return false; if (typeof value !== 'undefined') { style[property] = value; if (style[property] == '') return false; } return true; }; o.flags.lsdUnits = o.canUse('width', '100dvw'); return o; }()), trigger = function (t) { dispatchEvent(new Event(t)); }, cssRules = function (selectorText) { var ss = document.styleSheets, a = [], f = function (s) { var r = s.cssRules, i; for (i = 0; i < r.length; i++) { if (r[i] instanceof CSSMediaRule && matchMedia(r[i].conditionText).matches) (f)(r[i]); else if (r[i] instanceof CSSStyleRule && r[i].selectorText == selectorText) a.push(r[i]); } }, x, i; for (i = 0; i < ss.length; i++)f(ss[i]); return a; }, thisHash = function () { var h = location.hash ? location.hash.substring(1) : null, a; if (!h) return null; if (h.match(/\?/)) { a = h.split('?'); h = a[0]; history.replaceState(undefined, undefined, '#' + h); window.location.search = a[1]; } if (h.length > 0 && !h.match(/^[a-zA-Z]/)) h = 'x' + h; if (typeof h == 'string') h = h.toLowerCase(); return h; }, scrollToElement = function (e, style, duration) { var y, cy, dy, start, easing, offset, f; if (!e) y = 0; else { offset = (e.dataset.scrollOffset ? parseInt(e.dataset.scrollOffset) : 0) * parseFloat(getComputedStyle(document.documentElement).fontSize); switch (e.dataset.scrollBehavior ? e.dataset.scrollBehavior : 'default') { case 'default': default: y = e.offsetTop + offset; break; case 'center': if (e.offsetHeight < window.innerHeight) y = e.offsetTop - ((window.innerHeight - e.offsetHeight) / 2) + offset; else y = e.offsetTop - offset; break; case 'previous': if (e.previousElementSibling) y = e.previousElementSibling.offsetTop + e.previousElementSibling.offsetHeight + offset; else y = e.offsetTop + offset; break; } } if (!style) style = 'smooth'; if (!duration) duration = 750; if (style == 'instant') { window.scrollTo(0, y); return; } start = Date.now(); cy = window.scrollY; dy = y - cy; switch (style) { case 'linear': easing = function (t) { return t }; break; case 'smooth': easing = function (t) { return t < .5 ? 4 * t * t * t : (t - 1) * (2 * t - 2) * (2 * t - 2) + 1 }; break; }f = function () { var t = Date.now() - start; if (t >= duration) window.scroll(0, y); else { window.scroll(0, cy + (dy * easing(t / duration))); requestAnimationFrame(f); } }; f(); }, scrollToTop = function () { scrollToElement(null); }, loadElements = function (parent) { var a, e, x, i; a = parent.querySelectorAll('iframe[data-src]:not([data-src=""])'); for (i = 0; i < a.length; i++) { a[i].contentWindow.location.replace(a[i].dataset.src); a[i].dataset.initialSrc = a[i].dataset.src; a[i].dataset.src = ''; } a = parent.querySelectorAll('video[autoplay]'); for (i = 0; i < a.length; i++) { if (a[i].paused) a[i].play(); } e = parent.querySelector('[data-autofocus="1"]'); x = e ? e.tagName : null; switch (x) { case 'FORM': e = e.querySelector('.field input, .field select, .field textarea'); if (e) e.focus(); break; default: break; } }, unloadElements = function (parent) { var a, e, x, i; a = parent.querySelectorAll('iframe[data-src=""]'); for (i = 0; i < a.length; i++) { if (a[i].dataset.srcUnload === '0') continue; if ('initialSrc' in a[i].dataset) a[i].dataset.src = a[i].dataset.initialSrc; else a[i].dataset.src = a[i].src; a[i].contentWindow.location.replace('about:blank'); } a = parent.querySelectorAll('video'); for (i = 0; i < a.length; i++) { if (!a[i].paused) a[i].pause(); } e = $(':focus'); if (e) e.blur(); }; window._scrollToTop = scrollToTop; var thisUrl = function () { return window.location.href.replace(window.location.search, '').replace(/#$/, ''); }; var getVar = function (name) { var a = window.location.search.substring(1).split('&'), b, k; for (k in a) { b = a[k].split('='); if (b[0] == name) return b[1]; } return null; }; var errors = { handle: function (handler) { window.onerror = function (message, url, line, column, error) { (handler)(error.message); return true; }; }, unhandle: function () { window.onerror = null; } }; var loadHandler = function () { setTimeout(function () { $body.classList.remove('is-loading'); $body.classList.add('is-playing'); setTimeout(function () { $body.classList.remove('is-playing'); $body.classList.add('is-ready'); }, 1000); }, 100); }; on('load', loadHandler); loadElements(document.body); var style, sheet, rule; style = document.createElement('style'); style.appendChild(document.createTextNode('')); document.head.appendChild(style); sheet = style.sheet; if (client.mobile) { (function () { if (client.flags.lsdUnits) { document.documentElement.style.setProperty('--viewport-height', '100svh'); document.documentElement.style.setProperty('--background-height', '100lvh'); } else { var f = function () { document.documentElement.style.setProperty('--viewport-height', window.innerHeight + 'px'); document.documentElement.style.setProperty('--background-height', (window.innerHeight + 250) + 'px'); }; on('load', f); on('orientationchange', function () { setTimeout(function () { (f)(); }, 100); }); } })(); } if (client.os == 'android') { (function () { sheet.insertRule('body::after { }', 0); rule = sheet.cssRules[0]; var f = function () { rule.style.cssText = 'height: ' + (Math.max(screen.width, screen.height)) + 'px'; }; on('load', f); on('orientationchange', f); on('touchmove', f); })(); $body.classList.add('is-touch'); } else if (client.os == 'ios') { if (client.osVersion <= 11) (function () { sheet.insertRule('body::after { }', 0); rule = sheet.cssRules[0]; rule.style.cssText = '-webkit-transform: scale(1.0)'; })(); if (client.osVersion <= 11) (function () { sheet.insertRule('body.ios-focus-fix::before { }', 0); rule = sheet.cssRules[0]; rule.style.cssText = 'height: calc(100% + 60px)'; on('focus', function (event) { $body.classList.add('ios-focus-fix'); }, true); on('blur', function (event) { $body.classList.remove('ios-focus-fix'); }, true); })(); $body.classList.add('is-touch'); } function timer(id, options) { var _this = this, f; this.id = id; this.timestamp = options.timestamp; this.duration = options.duration; this.mode = options.mode; this.precision = options.precision; this.completeUrl = options.completeUrl; this.completion = options.completion; this.persistent = options.persistent; this.labelStyle = options.labelStyle; this.completed = false; this.status = null; this.$timer = document.getElementById(this.id); this.$parent = document.querySelector('#' + _this.$timer.id + ' ul'); this.days = { $li: null, $digit: null, $components: null }; this.hours = { $li: null, $digit: null, $components: null }; this.minutes = { $li: null, $digit: null, $components: null }; this.seconds = { $li: null, $digit: null, $components: null }; this.init(); }; timer.prototype.init = function () { var _this = this, kt, kd; kt = this.id + '-timestamp'; kd = this.id + '-duration'; switch (this.mode) { case 'duration': this.timestamp = parseInt(Date.now() / 1000) + this.duration; if (this.persistent) { if (registry.get(kd) != this.duration) registry.unset(kt); registry.set(kd, this.duration); if (registry.exists(kt)) this.timestamp = parseInt(registry.get(kt)); else registry.set(kt, this.timestamp); } else { if (registry.exists(kt)) registry.unset(kt); if (registry.exists(kd)) registry.unset(kd); } break; default: break; }window.setInterval(function () { _this.updateDigits(); _this.updateSize(); }, 250); this.updateDigits(); on('resize', function () { _this.updateSize(); }); this.updateSize(); }; timer.prototype.updateSize = function () { var $items, $item, $digit, $components, $component, $label, $sublabel, $symbols, w, iw, h, f, i, j, found; $items = document.querySelectorAll('#' + this.$timer.id + ' ul li .item'); $symbols = document.querySelectorAll('#' + this.$timer.id + ' .symbol'); $components = document.querySelectorAll('#' + this.$timer.id + ' .component'); h = 0; f = 0; for (j = 0; j < $components.length; j++) { $components[j].style.lineHeight = ''; $components[j].style.height = ''; } for (j = 0; j < $symbols.length; j++) { $symbols[j].style.fontSize = ''; $symbols[j].style.lineHeight = ''; $symbols[j].style.height = ''; } for (i = 0; i < $items.length; i++) { $item = $items[i]; $component = $item.children[0].children[0]; w = $component.offsetWidth; iw = $item.offsetWidth; $digit = $item.children[0]; $digit.style.fontSize = ''; $digit.style.fontSize = (w * 1.65) + 'px'; h = Math.max(h, $digit.offsetHeight); f = Math.max(f, (w * 1.65)); if ($item.children.length > 1) { $label = $item.children[1]; found = false; for (j = 0; j < $label.children.length; j++) { $sublabel = $label.children[j]; $sublabel.style.display = ''; if (!found && $sublabel.offsetWidth < iw) { found = true; $sublabel.style.display = ''; } else $sublabel.style.display = 'none'; } } } if ($items.length == 1) { var x = $items[0].children[0], xs = getComputedStyle(x), xsa = getComputedStyle(x, ':after'); if (xsa.content != 'none') h = parseInt(xsa.height) - parseInt(xs.marginTop) - parseInt(xs.marginBottom) + 24; } for (j = 0; j < $components.length; j++) { $components[j].style.lineHeight = h + 'px'; $components[j].style.height = h + 'px'; } for (j = 0; j < $symbols.length; j++) { $symbols[j].style.fontSize = (f * 0.5) + 'px'; $symbols[j].style.lineHeight = h + 'px'; $symbols[j].style.height = h + 'px'; } this.$parent.style.height = ''; this.$parent.style.height = this.$parent.offsetHeight + 'px'; }; timer.prototype.updateDigits = function () { var _this = this, x = [{ class: 'days', digit: 0, label: { full: 'Days', abbreviated: 'Days', initialed: 'D' } }, { class: 'hours', digit: 0, label: { full: 'Hours', abbreviated: 'Hrs', initialed: 'H' } }, { class: 'minutes', digit: 0, label: { full: 'Minutes', abbreviated: 'Mins', initialed: 'M' } }, { class: 'seconds', digit: 0, label: { full: 'Seconds', abbreviated: 'Secs', initialed: 'S' } },], now, diff, zeros, status, i, j, x, z, t, s; now = parseInt(Date.now() / 1000); switch (this.mode) { case 'countdown': case 'duration': if (this.timestamp >= now) diff = this.timestamp - now; else { diff = 0; if (!this.completed) { this.completed = true; if (this.completion) (this.completion)(); if (this.completeUrl) window.setTimeout(function () { window.location.href = _this.completeUrl; }, 1000); } } break; default: case 'default': if (this.timestamp >= now) diff = this.timestamp - now; else diff = now - this.timestamp; break; }x[0].digit = Math.floor(diff / 86400); diff -= x[0].digit * 86400; x[1].digit = Math.floor(diff / 3600); diff -= x[1].digit * 3600; x[2].digit = Math.floor(diff / 60); diff -= x[2].digit * 60; x[3].digit = diff; zeros = 0; for (i = 0; i < x.length; i++)if (x[i].digit == 0) zeros++; else break; while (zeros > 0 && x.length > this.precision) { x.shift(); zeros--; } z = []; for (i = 0; i < x.length; i++)z.push(x[i].class); status = z.join('-'); if (status == this.status) { var $digit, $components; for (i = 0; i < x.length; i++) { $digit = document.querySelector('#' + this.id + ' .' + x[i].class + ' .digit'); $components = document.querySelectorAll('#' + this.id + ' .' + x[i].class + ' .digit .component'); if (!$digit) continue; z = []; t = String(x[i].digit); if (x[i].digit < 10) { z.push('0'); z.push(t); } else for (j = 0; j < t.length; j++)z.push(t.substr(j, 1)); $digit.classList.remove('count1', 'count2', 'count3', 'count4'); $digit.classList.add('count' + z.length); if ($components.length == z.length) { for (j = 0; j < $components.length && j < z.length; j++)$components[j].innerHTML = z[j]; } else { s = ''; for (j = 0; j < $components.length && j < z.length; j++)s += '<span class="component x' + Math.random() + '">' + z[j] + '</span>'; $digit.innerHTML = s; } } } else { s = ''; for (i = 0; i < x.length && i < this.precision; i++) { z = []; t = String(x[i].digit); if (x[i].digit < 10) { z.push('0'); z.push(t); } else for (j = 0; j < t.length; j++)z.push(t.substr(j, 1)); if (i > 0) s += '<li class="delimiter">' + '<span class="symbol">:</span>' + '</li>'; s += '<li class="number ' + x[i].class + '">' + '<div class="item">'; s += '<span class="digit count' + t.length + '">'; for (j = 0; j < z.length; j++)s += '<span class="component">' + z[j] + '</span>'; s += '</span>'; switch (this.labelStyle) { default: case 'full': s += '<span class="label">' + '<span class="full">' + x[i].label.full + '</span>' + '<span class="abbreviated">' + x[i].label.abbreviated + '</span>' + '<span class="initialed">' + x[i].label.initialed + '</span>' + '</span>'; break; case 'abbreviated': s += '<span class="label">' + '<span class="abbreviated">' + x[i].label.abbreviated + '</span>' + '<span class="initialed">' + x[i].label.initialed + '</span>' + '</span>'; break; case 'initialed': s += '<span class="label">' + '<span class="initialed">' + x[i].label.initialed + '</span>' + '</span>'; break; case 'none': break; }s += '</div>' + '</li>'; } _this.$parent.innerHTML = s; this.status = status; } }; new timer('timer01', { mode: 'default', precision: 4, completeUrl: '', timestamp: 1678446780, labelStyle: 'full' }); })();</script>
+</body>
+
+</html>
